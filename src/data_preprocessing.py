@@ -6,34 +6,15 @@ INPUT_DIR = Path("data/nifty50")
 OUTPUT_DIR = Path("data/processed_nifty50_data")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-EPSILON = 1e-10  # Global epsilon to avoid divide-by-zero
-
-def resample_weekly(df):
-    df.set_index("Date", inplace=True)
-    df = df.resample("W-FRI").agg({
-        "Open": "first",
-        "High": "max",
-        "Low": "min",
-        "Close": "last",
-        "Volume": "sum",
-        "Ticker": "first"
-    }).dropna().reset_index()
-    df = df[df["Date"] >= pd.to_datetime("2004-04-01")].reset_index(drop=True)
-    return df
+EPSILON = 1e-10
 
 def compute_log_returns_all(df, epsilon=1e-8):
     for col in ["Open", "High", "Low", "Close", "Volume"]:
-        curr = df[col].astype(float)
-        prev = df[col].shift(1).astype(float)
-
-        # Replace zeros or very small values with epsilon before division
-        prev_safe = prev.copy()
-        prev_safe[prev_safe < epsilon] = epsilon
-        curr_safe = curr.copy()
-        curr_safe[curr_safe < epsilon] = epsilon
-
-        df[f"log_return_{col}"] = np.log(curr_safe / prev_safe)
-    
+        curr = df[col].astype(float).copy()
+        prev = df[col].shift(1).astype(float).copy()
+        prev[prev < epsilon] = epsilon
+        curr[curr < epsilon] = epsilon
+        df[f"log_return_{col}"] = np.log(curr / prev)
     df.drop(columns=["Open", "High", "Low", "Close", "Volume"], inplace=True)
     return df
 
@@ -50,7 +31,7 @@ def compute_atr(df, window=4):
     high_low = exp_H - exp_L
     high_close = np.abs(exp_H - exp_C_shift)
     low_close = np.abs(exp_L - exp_C_shift)
-    
+
     tr = pd.concat([high_low, high_close, low_close], axis=1).max(axis=1)
     df["ATR"] = tr.rolling(window).mean()
     return df
@@ -69,7 +50,7 @@ def compute_rsi(df, window=14):
 
     rs = avg_gain / avg_loss
     df["RSI"] = 100 - (100 / (1 + rs))
-    df["RSI"] = df["RSI"].clip(lower=0, upper=100)
+    df["RSI"] = df["RSI"].clip(0, 100)
     return df
 
 def compute_streaks(df):
@@ -101,28 +82,32 @@ def load_and_clean_nifty50_csv(file_path):
     for col in ["Close", "High", "Low", "Open"]:
         df[col] = pd.to_numeric(df[col], errors="coerce")
     df["Ticker"] = ticker
-    print(f"{ticker} | Start Date: {df['Date'].iloc[0].date()} | Rows: {len(df)}")
+    df = df[df["Date"] >= pd.to_datetime("2004-04-01")].reset_index(drop=True)
     return df
 
 def process_nifty50_data():
     for file in INPUT_DIR.glob("*.csv"):
         df = load_and_clean_nifty50_csv(file)
 
-        df = resample_weekly(df)
-
-        # Candle-based lengths
         df["Wick_length"] = df["High"] - df[["Open", "Close"]].max(axis=1)
         df["Shadow_length"] = df[["Open", "Close"]].min(axis=1) - df["Low"]
         df["Body_length"] = df["Open"] - df["Close"]
 
-        # Apply log return transformation
-        df = compute_log_returns_all(df)
-        # Before feature normalization
-        df["Wick_length"] = np.log1p(df["Wick_length"])
-        df["Shadow_length"] = np.log1p(df["Shadow_length"])
-        df["Body_length"] = np.sign(df["Body_length"]) * np.log1p(np.abs(df["Body_length"]))
+        # Detect illiquid rows
+        illiquid_mask = (
+            (df["Open"] == df["High"]) &
+            (df["Open"] == df["Low"]) &
+            (df["Open"] == df["Close"])
+        )
 
-        # Feature engineering
+        # Set zero for log returns and candle features on illiquid rows
+        for col in ["Wick_length", "Shadow_length", "Body_length"]:
+            df.loc[illiquid_mask, col] = 0.0
+
+        df = compute_log_returns_all(df)
+        for col in ["log_return_Open", "log_return_High", "log_return_Low", "log_return_Close", "log_return_Volume"]:
+            df.loc[illiquid_mask, col] = 0.0
+
         df = compute_rolling_std(df)
         df = compute_atr(df)
         df = compute_volume_price_corr(df)
@@ -132,7 +117,6 @@ def process_nifty50_data():
         df = compute_moving_averages(df)
 
         df = df.iloc[14:].reset_index(drop=True)
-
         df.to_csv(OUTPUT_DIR / file.name, index=False)
 
 if __name__ == "__main__":

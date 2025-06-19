@@ -4,6 +4,10 @@ import numpy as np
 from typing import List, Tuple
 from tqdm import tqdm
 
+SEQ_LEN = 120
+HORIZON1 = 20
+HORIZON2 = 60
+
 def load_data(data_folder: str) -> Tuple[pd.DataFrame, List[str], List[str]]:
     csv_files = [f for f in os.listdir(data_folder) if f.endswith('.csv')]
     all_data = []
@@ -23,27 +27,25 @@ def load_data(data_folder: str) -> Tuple[pd.DataFrame, List[str], List[str]]:
     df_pivot = df_all.pivot(index='Date', columns='Ticker', values=feature_cols)
     df_pivot = df_pivot.sort_index()
 
-    # Flatten MultiIndex columns: (feature, ticker) → "ticker__feature"
     df_pivot.columns = [f"{ticker}__{feat}" for feat, ticker in df_pivot.columns]
 
     return df_pivot, sorted(tickers), feature_cols
+
 
 def make_sequences_targets(
     df: pd.DataFrame,
     tickers: List[str],
     feature_cols: List[str],
-    sequence_length: int = 12,
-    pred_1m: int = 4,
-    pred_2m: int = 8,
+    sequence_length: int = SEQ_LEN,
+    pred_steps: List[int] = [HORIZON1, HORIZON2],
     target_feature: str = "log_return_Close"
-) -> Tuple[np.ndarray, np.ndarray, np.ndarray]:
+) -> Tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray]:
     if target_feature not in feature_cols:
         raise ValueError(f"Target feature '{target_feature}' not found in features")
 
     num_stocks = len(tickers)
     num_features = len(feature_cols)
 
-    # 3D array: [time, stocks, features]
     data = np.full((len(df), num_stocks, num_features), np.nan)
 
     for i, ticker in enumerate(tickers):
@@ -52,34 +54,43 @@ def make_sequences_targets(
             if col in df.columns:
                 data[:, i, j] = df[col].values
 
-    total_samples = len(df) - sequence_length - pred_2m
+    max_pred = max(pred_steps)
+    total_samples = len(df) - sequence_length - max_pred
     X, Y, mask = [], [], []
+    date_indices = []
+
+    dates = df.index.to_list()
 
     for t in tqdm(range(total_samples), desc="Creating sequences"):
         seq = data[t : t + sequence_length]
-        seq = np.nan_to_num(seq, nan=0.0)  # Fill NaNs in input
+        seq = np.nan_to_num(seq, nan=0.0)
 
-        target_1m = data[t + sequence_length + pred_1m - 1, :, feature_cols.index(target_feature)]
-        target_2m = data[t + sequence_length + pred_2m - 1, :, feature_cols.index(target_feature)]
+        targets = []
+        masks = []
+        for step in pred_steps:
+            target = data[t + sequence_length + step - 1, :, feature_cols.index(target_feature)]
+            targets.append(np.nan_to_num(target, nan=0.0))
+            masks.append(~np.isnan(target))
 
-        valid_mask = ~(np.isnan(target_1m) | np.isnan(target_2m))
-        target_1m = np.nan_to_num(target_1m, nan=0.0)
-        target_2m = np.nan_to_num(target_2m, nan=0.0)
-
+        Y.append(np.stack(targets, axis=-1))
+        mask.append(np.all(masks, axis=0))
         X.append(seq)
-        Y.append(np.stack([target_1m, target_2m], axis=-1))  # [stocks, 2]
-        mask.append(valid_mask)
+        date_indices.append(dates[t + sequence_length - 1])
 
-    return (
-        np.array(X),    # [N, seq_len, stocks, features]
-        np.array(Y),    # [N, stocks, 2]
-        np.array(mask)  # [N, stocks]
-    )
+    X = np.array(X)
+    Y = np.array(Y)
+    mask = np.array(mask)
+    date_indices = np.array(date_indices)
+
+    X = X.reshape(X.shape[0], X.shape[1], -1)
+
+    return X, Y, mask, date_indices
+
 
 def train_test_split(
-    X: np.ndarray, Y: np.ndarray, mask: np.ndarray,
-    test_ratio: float = 0.2, drop_last_weeks: int = 12
-) -> Tuple[dict, dict]:
+    X: np.ndarray, Y: np.ndarray, mask: np.ndarray, date_indices: np.ndarray,
+    test_ratio: float = 0.2, drop_last_weeks: int = 52
+) -> Tuple[dict, dict, dict]:
     num_samples = X.shape[0]
     split_point = int(num_samples * (1 - test_ratio))
 
@@ -90,55 +101,56 @@ def train_test_split(
         "X": X[:split_point],
         "Y": Y[:split_point],
         "mask": mask[:split_point],
+        "dates": date_indices[:split_point],
     }
 
     test = {
         "X": X[split_point:-drop_last_weeks],
         "Y": Y[split_point:-drop_last_weeks],
         "mask": mask[split_point:-drop_last_weeks],
+        "dates": date_indices[split_point:-drop_last_weeks],
     }
 
     print(f"Train: {train['X'].shape[0]} samples | Test: {test['X'].shape[0]} samples")
-    return train, test
+    return train, test, {"split_point": split_point, "drop_last_weeks": drop_last_weeks}
 
-def save_data(train: dict, test: dict, tickers: List[str], features: List[str], output_path: str, save_sample_csv: bool = True):
+
+def save_data(train: dict, test: dict, tickers: List[str], features: List[str], output_path: str):
     os.makedirs(output_path, exist_ok=True)
 
-    np.save(os.path.join(output_path, "train_X.npy"), train["X"])
-    np.save(os.path.join(output_path, "train_Y.npy"), train["Y"])
-    np.save(os.path.join(output_path, "train_mask.npy"), train["mask"])
-
-    np.save(os.path.join(output_path, "test_X.npy"), test["X"])
-    np.save(os.path.join(output_path, "test_Y.npy"), test["Y"])
-    np.save(os.path.join(output_path, "test_mask.npy"), test["mask"])
+    for name, data in zip(
+        ['train_X', 'train_Y', 'train_mask', 'test_X', 'test_Y', 'test_mask'],
+        [train['X'], train['Y'], train['mask'], test['X'], test['Y'], test['mask']]
+    ):
+        np.save(os.path.join(output_path, f"{name}.npy"), data)
 
     np.save(os.path.join(output_path, "tickers.npy"), np.array(tickers))
     np.save(os.path.join(output_path, "features.npy"), np.array(features))
 
-    print("Saved all data to:", output_path)
+    # Save train-test date info
+    train_start = train["dates"][0]
+    train_end = train["dates"][-1]
+    test_start = test["dates"][0]
+    test_end = test["dates"][-1]
 
-    # Optional: save one input sequence and target to CSV for debugging
-    if save_sample_csv:
-        sample_idx = 0
-        X_sample = train["X"][sample_idx]  # [seq_len, stocks, features]
-        Y_sample = train["Y"][sample_idx]  # [stocks, 2]
+    with open(os.path.join(output_path, "train_test_dates.txt"), "w") as f:
+        f.write(f"Train Start: {train_start}\n")
+        f.write(f"Train End:   {train_end}\n")
+        f.write(f"Test Start:  {test_start}\n")
+        f.write(f"Test End:    {test_end}\n")
 
-        seq_len, num_stocks, num_feats = X_sample.shape
-        for i in range(num_stocks):
-            stock_data = pd.DataFrame(X_sample[:, i, :], columns=features)
-            stock_data.to_csv(os.path.join(output_path, f"sample_seq_{tickers[i]}.csv"), index=False)
-        pd.DataFrame(Y_sample, columns=["target_1m", "target_2m"]).to_csv(
-            os.path.join(output_path, "sample_targets.csv"), index=False
-        )
+    print("Saved all data and train/test dates to:", output_path)
+
 
 def prepare_data(data_folder: str, output_folder: str):
     df_pivot, tickers, feature_cols = load_data(data_folder)
-    X, Y, mask = make_sequences_targets(df_pivot, tickers, feature_cols)
-    train, test = train_test_split(X, Y, mask)
+    X, Y, mask, date_indices = make_sequences_targets(df_pivot, tickers, feature_cols)
+    train, test, _ = train_test_split(X, Y, mask, date_indices)
     save_data(train, test, tickers, feature_cols, output_folder)
+
 
 if __name__ == "__main__":
     prepare_data(
         data_folder=r"data\processed_nifty50_data",
-        output_folder=r"data\train_test"
+        output_folder=r"data\patchTST_data"
     )
