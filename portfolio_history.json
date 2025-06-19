@@ -1,0 +1,6708 @@
+{
+  "2021-02-10": [
+    "APOLLOHOSP",
+    "TITAN",
+    "EICHERMOT",
+    "HEROMOTOCO",
+    "LTIM"
+  ],
+  "2021-02-11": [
+    "APOLLOHOSP",
+    "BRITANNIA",
+    "HEROMOTOCO",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2021-02-12": [
+    "TCS",
+    "DIVISLAB",
+    "EICHERMOT",
+    "HEROMOTOCO",
+    "LTIM"
+  ],
+  "2021-02-15": [
+    "APOLLOHOSP",
+    "BPCL",
+    "ULTRACEMCO",
+    "GRASIM",
+    "HDFCLIFE"
+  ],
+  "2021-02-16": [
+    "APOLLOHOSP",
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "TATACONSUM",
+    "HDFCLIFE"
+  ],
+  "2021-02-17": [
+    "ASIANPAINT",
+    "BAJFINANCE",
+    "KOTAKBANK",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2021-02-18": [
+    "BHARTIARTL",
+    "CIPLA",
+    "DIVISLAB",
+    "M&M",
+    "NTPC"
+  ],
+  "2021-02-19": [
+    "TCS",
+    "COALINDIA",
+    "EICHERMOT",
+    "ITC",
+    "LTIM"
+  ],
+  "2021-02-22": [
+    "BRITANNIA",
+    "GRASIM",
+    "HCLTECH",
+    "ITC",
+    "NTPC"
+  ],
+  "2021-02-23": [
+    "APOLLOHOSP",
+    "ASIANPAINT",
+    "COALINDIA",
+    "TITAN",
+    "MARUTI"
+  ],
+  "2021-02-24": [
+    "ONGC",
+    "POWERGRID",
+    "COALINDIA",
+    "GRASIM",
+    "LTIM"
+  ],
+  "2021-02-25": [
+    "TCS",
+    "ULTRACEMCO",
+    "EICHERMOT",
+    "GRASIM",
+    "ITC"
+  ],
+  "2021-02-26": [
+    "ASIANPAINT",
+    "BRITANNIA",
+    "TITAN",
+    "INDUSINDBK",
+    "KOTAKBANK"
+  ],
+  "2021-03-01": [
+    "APOLLOHOSP",
+    "ASIANPAINT",
+    "BAJFINANCE",
+    "ULTRACEMCO",
+    "LTIM"
+  ],
+  "2021-03-02": [
+    "ASIANPAINT",
+    "COALINDIA",
+    "TITAN",
+    "ULTRACEMCO",
+    "MARUTI"
+  ],
+  "2021-03-03": [
+    "RELIANCE",
+    "BAJFINANCE",
+    "TATASTEEL",
+    "JSWSTEEL",
+    "KOTAKBANK"
+  ],
+  "2021-03-04": [
+    "TITAN",
+    "ULTRACEMCO",
+    "HEROMOTOCO",
+    "LT",
+    "LTIM"
+  ],
+  "2021-03-05": [
+    "APOLLOHOSP",
+    "DIVISLAB",
+    "HEROMOTOCO",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2021-03-08": [
+    "TCS",
+    "DIVISLAB",
+    "ITC",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2021-03-09": [
+    "ONGC",
+    "POWERGRID",
+    "APOLLOHOSP",
+    "ULTRACEMCO",
+    "NTPC"
+  ],
+  "2021-03-10": [
+    "BAJAJFINSV",
+    "TATACONSUM",
+    "BPCL",
+    "DIVISLAB",
+    "HDFCLIFE"
+  ],
+  "2021-03-11": [
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "BRITANNIA",
+    "KOTAKBANK",
+    "MARUTI"
+  ],
+  "2021-03-12": [
+    "TATASTEEL",
+    "BRITANNIA",
+    "COALINDIA",
+    "DIVISLAB",
+    "NTPC"
+  ],
+  "2021-03-15": [
+    "ONGC",
+    "COALINDIA",
+    "EICHERMOT",
+    "ITC",
+    "LTIM"
+  ],
+  "2021-03-16": [
+    "TATASTEEL",
+    "COALINDIA",
+    "TITAN",
+    "ITC",
+    "NTPC"
+  ],
+  "2021-03-17": [
+    "APOLLOHOSP",
+    "ASIANPAINT",
+    "BRITANNIA",
+    "TECHM",
+    "MARUTI"
+  ],
+  "2021-03-18": [
+    "ONGC",
+    "APOLLOHOSP",
+    "COALINDIA",
+    "LTIM",
+    "NTPC"
+  ],
+  "2021-03-19": [
+    "ULTRACEMCO",
+    "GRASIM",
+    "INDUSINDBK",
+    "ITC",
+    "LTIM"
+  ],
+  "2021-03-22": [
+    "BPCL",
+    "TITAN",
+    "ULTRACEMCO",
+    "KOTAKBANK",
+    "LTIM"
+  ],
+  "2021-03-23": [
+    "ASIANPAINT",
+    "BAJFINANCE",
+    "ULTRACEMCO",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2021-03-24": [
+    "ASIANPAINT",
+    "TCS",
+    "ULTRACEMCO",
+    "HDFCBANK",
+    "INDUSINDBK"
+  ],
+  "2021-03-25": [
+    "RELIANCE",
+    "BAJFINANCE",
+    "TATASTEEL",
+    "JSWSTEEL",
+    "NTPC"
+  ],
+  "2021-03-26": [
+    "BAJFINANCE",
+    "TITAN",
+    "ULTRACEMCO",
+    "HEROMOTOCO",
+    "LTIM"
+  ],
+  "2021-03-29": [
+    "APOLLOHOSP",
+    "COALINDIA",
+    "DIVISLAB",
+    "HEROMOTOCO",
+    "LTIM"
+  ],
+  "2021-03-30": [
+    "BAJFINANCE",
+    "TCS",
+    "DRREDDY",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2021-03-31": [
+    "APOLLOHOSP",
+    "TCS",
+    "ULTRACEMCO",
+    "GRASIM",
+    "LTIM"
+  ],
+  "2021-04-01": [
+    "BAJAJFINSV",
+    "TATACONSUM",
+    "TATASTEEL",
+    "UPL",
+    "HDFCLIFE"
+  ],
+  "2021-04-02": [
+    "BAJFINANCE",
+    "ULTRACEMCO",
+    "KOTAKBANK",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2021-04-05": [
+    "ASIANPAINT",
+    "BRITANNIA",
+    "TECHM",
+    "DIVISLAB",
+    "GRASIM"
+  ],
+  "2021-04-06": [
+    "ONGC",
+    "COALINDIA",
+    "EICHERMOT",
+    "ITC",
+    "LTIM"
+  ],
+  "2021-04-07": [
+    "TATASTEEL",
+    "COALINDIA",
+    "TITAN",
+    "HCLTECH",
+    "INDUSINDBK"
+  ],
+  "2021-04-08": [
+    "APOLLOHOSP",
+    "TCS",
+    "TECHM",
+    "INFY",
+    "MARUTI"
+  ],
+  "2021-04-09": [
+    "ONGC",
+    "APOLLOHOSP",
+    "TATAMOTORS",
+    "TCS",
+    "LTIM"
+  ],
+  "2021-04-12": [
+    "TATASTEEL",
+    "TCS",
+    "ULTRACEMCO",
+    "INDUSINDBK",
+    "ITC"
+  ],
+  "2021-04-13": [
+    "TITAN",
+    "ULTRACEMCO",
+    "WIPRO",
+    "ITC",
+    "KOTAKBANK"
+  ],
+  "2021-04-14": [
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "DIVISLAB",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2021-04-15": [
+    "ASIANPAINT",
+    "TCS",
+    "ULTRACEMCO",
+    "UPL",
+    "LT"
+  ],
+  "2021-04-16": [
+    "RELIANCE",
+    "BAJFINANCE",
+    "TATASTEEL",
+    "DIVISLAB",
+    "MARUTI"
+  ],
+  "2021-04-19": [
+    "BAJFINANCE",
+    "TITAN",
+    "ULTRACEMCO",
+    "UPL",
+    "LTIM"
+  ],
+  "2021-04-20": [
+    "DIVISLAB",
+    "GRASIM",
+    "HEROMOTOCO",
+    "INFY",
+    "LTIM"
+  ],
+  "2021-04-21": [
+    "BAJFINANCE",
+    "TCS",
+    "TITAN",
+    "DRREDDY",
+    "MARUTI"
+  ],
+  "2021-04-22": [
+    "BRITANNIA",
+    "TCS",
+    "DIVISLAB",
+    "ULTRACEMCO",
+    "ITC"
+  ],
+  "2021-04-23": [
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "TATASTEEL",
+    "HDFCLIFE",
+    "MARUTI"
+  ],
+  "2021-04-26": [
+    "BAJFINANCE",
+    "ULTRACEMCO",
+    "KOTAKBANK",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2021-04-27": [
+    "APOLLOHOSP",
+    "ASIANPAINT",
+    "BRITANNIA",
+    "CIPLA",
+    "DIVISLAB"
+  ],
+  "2021-04-28": [
+    "TATASTEEL",
+    "CIPLA",
+    "BRITANNIA",
+    "EICHERMOT",
+    "LTIM"
+  ],
+  "2021-04-29": [
+    "BAJFINANCE",
+    "TATASTEEL",
+    "BRITANNIA",
+    "TITAN",
+    "INDUSINDBK"
+  ],
+  "2021-04-30": [
+    "APOLLOHOSP",
+    "CIPLA",
+    "TECHM",
+    "EICHERMOT",
+    "WIPRO"
+  ],
+  "2021-05-03": [
+    "APOLLOHOSP",
+    "CIPLA",
+    "TCS",
+    "HEROMOTOCO",
+    "LTIM"
+  ],
+  "2021-05-04": [
+    "SBIN",
+    "TCS",
+    "INDUSINDBK",
+    "ITC",
+    "LTIM"
+  ],
+  "2021-05-05": [
+    "TATAMOTORS",
+    "ULTRACEMCO",
+    "WIPRO",
+    "KOTAKBANK",
+    "LT"
+  ],
+  "2021-05-06": [
+    "BAJFINANCE",
+    "DIVISLAB",
+    "ULTRACEMCO",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2021-05-07": [
+    "APOLLOHOSP",
+    "ULTRACEMCO",
+    "HDFCBANK",
+    "INDUSINDBK",
+    "LT"
+  ],
+  "2021-05-10": [
+    "RELIANCE",
+    "SBIN",
+    "DIVISLAB",
+    "LT",
+    "MARUTI"
+  ],
+  "2021-05-11": [
+    "BAJFINANCE",
+    "DIVISLAB",
+    "ULTRACEMCO",
+    "M&M",
+    "MARUTI"
+  ],
+  "2021-05-12": [
+    "BAJFINANCE",
+    "DIVISLAB",
+    "HDFCBANK",
+    "HEROMOTOCO",
+    "LTIM"
+  ],
+  "2021-05-13": [
+    "BAJFINANCE",
+    "TCS",
+    "TITAN",
+    "DRREDDY",
+    "EICHERMOT"
+  ],
+  "2021-05-14": [
+    "ONGC",
+    "TCS",
+    "DIVISLAB",
+    "DRREDDY",
+    "ULTRACEMCO"
+  ],
+  "2021-05-17": [
+    "ONGC",
+    "BAJAJFINSV",
+    "BPCL",
+    "GRASIM",
+    "MARUTI"
+  ],
+  "2021-05-18": [
+    "RELIANCE",
+    "BAJFINANCE",
+    "BRITANNIA",
+    "KOTAKBANK",
+    "MARUTI"
+  ],
+  "2021-05-19": [
+    "ASIANPAINT",
+    "SUNPHARMA",
+    "BAJFINANCE",
+    "CIPLA",
+    "DIVISLAB"
+  ],
+  "2021-05-20": [
+    "ONGC",
+    "BRITANNIA",
+    "EICHERMOT",
+    "GRASIM",
+    "LTIM"
+  ],
+  "2021-05-21": [
+    "ONGC",
+    "POWERGRID",
+    "SBIN",
+    "BAJFINANCE",
+    "COALINDIA"
+  ],
+  "2021-05-24": [
+    "POWERGRID",
+    "COALINDIA",
+    "WIPRO",
+    "LT",
+    "M&M"
+  ],
+  "2021-05-25": [
+    "APOLLOHOSP",
+    "TCS",
+    "DIVISLAB",
+    "HEROMOTOCO",
+    "LTIM"
+  ],
+  "2021-05-26": [
+    "SBIN",
+    "BPCL",
+    "INDUSINDBK",
+    "ITC",
+    "LTIM"
+  ],
+  "2021-05-27": [
+    "BPCL",
+    "COALINDIA",
+    "UPL",
+    "KOTAKBANK",
+    "LT"
+  ],
+  "2021-05-28": [
+    "BAJFINANCE",
+    "TCS",
+    "INDUSINDBK",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2021-05-31": [
+    "APOLLOHOSP",
+    "ULTRACEMCO",
+    "HDFCBANK",
+    "INDUSINDBK",
+    "MARUTI"
+  ],
+  "2021-06-01": [
+    "RELIANCE",
+    "SBIN",
+    "DIVISLAB",
+    "UPL",
+    "MARUTI"
+  ],
+  "2021-06-02": [
+    "BAJFINANCE",
+    "DIVISLAB",
+    "ULTRACEMCO",
+    "M&M",
+    "MARUTI"
+  ],
+  "2021-06-03": [
+    "BAJFINANCE",
+    "DIVISLAB",
+    "HDFCBANK",
+    "HEROMOTOCO",
+    "LTIM"
+  ],
+  "2021-06-04": [
+    "ONGC",
+    "TCS",
+    "TITAN",
+    "ITC",
+    "LT"
+  ],
+  "2021-06-07": [
+    "BAJFINANCE",
+    "DIVISLAB",
+    "ULTRACEMCO",
+    "GRASIM",
+    "HEROMOTOCO"
+  ],
+  "2021-06-08": [
+    "ONGC",
+    "BAJAJFINSV",
+    "BPCL",
+    "HEROMOTOCO",
+    "MARUTI"
+  ],
+  "2021-06-09": [
+    "RELIANCE",
+    "BAJFINANCE",
+    "BRITANNIA",
+    "ULTRACEMCO",
+    "LT"
+  ],
+  "2021-06-10": [
+    "ASIANPAINT",
+    "RELIANCE",
+    "BAJFINANCE",
+    "SUNPHARMA",
+    "TITAN"
+  ],
+  "2021-06-11": [
+    "BPCL",
+    "EICHERMOT",
+    "GRASIM",
+    "ITC",
+    "LTIM"
+  ],
+  "2021-06-14": [
+    "BAJFINANCE",
+    "BRITANNIA",
+    "COALINDIA",
+    "TITAN",
+    "NTPC"
+  ],
+  "2021-06-15": [
+    "POWERGRID",
+    "GRASIM",
+    "INDUSINDBK",
+    "LT",
+    "NTPC"
+  ],
+  "2021-06-16": [
+    "TCS",
+    "DIVISLAB",
+    "HEROMOTOCO",
+    "INFY",
+    "LTIM"
+  ],
+  "2021-06-17": [
+    "APOLLOHOSP",
+    "TITAN",
+    "EICHERMOT",
+    "ITC",
+    "LTIM"
+  ],
+  "2021-06-18": [
+    "BPCL",
+    "GRASIM",
+    "ITC",
+    "KOTAKBANK",
+    "MARUTI"
+  ],
+  "2021-06-21": [
+    "BAJFINANCE",
+    "TCS",
+    "DIVISLAB",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2021-06-22": [
+    "APOLLOHOSP",
+    "TCS",
+    "HDFCBANK",
+    "INDUSINDBK",
+    "MARUTI"
+  ],
+  "2021-06-23": [
+    "RELIANCE",
+    "DIVISLAB",
+    "TITAN",
+    "UPL",
+    "MARUTI"
+  ],
+  "2021-06-24": [
+    "BAJFINANCE",
+    "CIPLA",
+    "DIVISLAB",
+    "ULTRACEMCO",
+    "MARUTI"
+  ],
+  "2021-06-25": [
+    "BAJFINANCE",
+    "DIVISLAB",
+    "UPL",
+    "HDFCBANK",
+    "HEROMOTOCO"
+  ],
+  "2021-06-28": [
+    "BAJFINANCE",
+    "TITAN",
+    "EICHERMOT",
+    "ITC",
+    "LT"
+  ],
+  "2021-06-29": [
+    "TCS",
+    "DIVISLAB",
+    "ULTRACEMCO",
+    "GRASIM",
+    "KOTAKBANK"
+  ],
+  "2021-06-30": [
+    "BAJAJFINSV",
+    "DIVISLAB",
+    "GRASIM",
+    "ITC",
+    "MARUTI"
+  ],
+  "2021-07-01": [
+    "BAJFINANCE",
+    "TCS",
+    "ULTRACEMCO",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2021-07-02": [
+    "APOLLOHOSP",
+    "ASIANPAINT",
+    "BAJFINANCE",
+    "SUNPHARMA",
+    "TITAN"
+  ],
+  "2021-07-05": [
+    "TATASTEEL",
+    "CIPLA",
+    "GRASIM",
+    "INFY",
+    "LTIM"
+  ],
+  "2021-07-06": [
+    "ONGC",
+    "TATASTEEL",
+    "TITAN",
+    "EICHERMOT",
+    "MARUTI"
+  ],
+  "2021-07-07": [
+    "ADANIPORTS",
+    "CIPLA",
+    "HCLTECH",
+    "INDUSINDBK",
+    "INFY"
+  ],
+  "2021-07-08": [
+    "TCS",
+    "DIVISLAB",
+    "HEROMOTOCO",
+    "INFY",
+    "LTIM"
+  ],
+  "2021-07-09": [
+    "APOLLOHOSP",
+    "TATASTEEL",
+    "TITAN",
+    "EICHERMOT",
+    "ITC"
+  ],
+  "2021-07-12": [
+    "APOLLOHOSP",
+    "TCS",
+    "DIVISLAB",
+    "KOTAKBANK",
+    "MARUTI"
+  ],
+  "2021-07-13": [
+    "BAJFINANCE",
+    "TCS",
+    "ULTRACEMCO",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2021-07-14": [
+    "APOLLOHOSP",
+    "ULTRACEMCO",
+    "EICHERMOT",
+    "HDFCBANK",
+    "INDUSINDBK"
+  ],
+  "2021-07-15": [
+    "TATASTEEL",
+    "DIVISLAB",
+    "JSWSTEEL",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2021-07-16": [
+    "BAJFINANCE",
+    "DIVISLAB",
+    "ULTRACEMCO",
+    "M&M",
+    "MARUTI"
+  ],
+  "2021-07-19": [
+    "BAJFINANCE",
+    "DIVISLAB",
+    "HDFCBANK",
+    "HEROMOTOCO",
+    "INDUSINDBK"
+  ],
+  "2021-07-20": [
+    "BAJAJFINSV",
+    "SUNPHARMA",
+    "TITAN",
+    "ULTRACEMCO",
+    "EICHERMOT"
+  ],
+  "2021-07-21": [
+    "BAJFINANCE",
+    "TCS",
+    "DIVISLAB",
+    "DRREDDY",
+    "KOTAKBANK"
+  ],
+  "2021-07-22": [
+    "TATASTEEL",
+    "DIVISLAB",
+    "HINDALCO",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2021-07-23": [
+    "BAJFINANCE",
+    "TITAN",
+    "ULTRACEMCO",
+    "HDFCBANK",
+    "HINDALCO"
+  ],
+  "2021-07-26": [
+    "APOLLOHOSP",
+    "ASIANPAINT",
+    "BAJFINANCE",
+    "DIVISLAB",
+    "ULTRACEMCO"
+  ],
+  "2021-07-27": [
+    "APOLLOHOSP",
+    "DIVISLAB",
+    "EICHERMOT",
+    "GRASIM",
+    "LTIM"
+  ],
+  "2021-07-28": [
+    "BAJFINANCE",
+    "BHARTIARTL",
+    "TATASTEEL",
+    "JSWSTEEL",
+    "MARUTI"
+  ],
+  "2021-07-29": [
+    "SBILIFE",
+    "BAJFINANCE",
+    "SUNPHARMA",
+    "EICHERMOT",
+    "LT"
+  ],
+  "2021-07-30": [
+    "SBILIFE",
+    "TCS",
+    "DIVISLAB",
+    "ULTRACEMCO",
+    "LTIM"
+  ],
+  "2021-08-02": [
+    "APOLLOHOSP",
+    "TATASTEEL",
+    "TITAN",
+    "EICHERMOT",
+    "UPL"
+  ],
+  "2021-08-03": [
+    "TATASTEEL",
+    "TCS",
+    "COALINDIA",
+    "WIPRO",
+    "MARUTI"
+  ],
+  "2021-08-04": [
+    "TATASTEEL",
+    "COALINDIA",
+    "DIVISLAB",
+    "WIPRO",
+    "JSWSTEEL"
+  ],
+  "2021-08-05": [
+    "APOLLOHOSP",
+    "BAJAJFINSV",
+    "UPL",
+    "INFY",
+    "M&M"
+  ],
+  "2021-08-06": [
+    "TATASTEEL",
+    "DIVISLAB",
+    "DRREDDY",
+    "JSWSTEEL",
+    "MARUTI"
+  ],
+  "2021-08-09": [
+    "BHARTIARTL",
+    "BPCL",
+    "DIVISLAB",
+    "EICHERMOT",
+    "MARUTI"
+  ],
+  "2021-08-10": [
+    "BAJFINANCE",
+    "DIVISLAB",
+    "HDFCBANK",
+    "ICICIBANK",
+    "INDUSINDBK"
+  ],
+  "2021-08-11": [
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "SUNPHARMA",
+    "ULTRACEMCO",
+    "EICHERMOT"
+  ],
+  "2021-08-12": [
+    "ASIANPAINT",
+    "TCS",
+    "DIVISLAB",
+    "HCLTECH",
+    "KOTAKBANK"
+  ],
+  "2021-08-13": [
+    "BAJAJFINSV",
+    "DIVISLAB",
+    "HINDALCO",
+    "LT",
+    "LTIM"
+  ],
+  "2021-08-16": [
+    "SBIN",
+    "BAJFINANCE",
+    "BHARTIARTL",
+    "HDFCBANK",
+    "INDUSINDBK"
+  ],
+  "2021-08-17": [
+    "APOLLOHOSP",
+    "SUNPHARMA",
+    "DIVISLAB",
+    "DRREDDY",
+    "ULTRACEMCO"
+  ],
+  "2021-08-18": [
+    "ASIANPAINT",
+    "BPCL",
+    "EICHERMOT",
+    "GRASIM",
+    "MARUTI"
+  ],
+  "2021-08-19": [
+    "BAJFINANCE",
+    "TATAMOTORS",
+    "BPCL",
+    "EICHERMOT",
+    "MARUTI"
+  ],
+  "2021-08-20": [
+    "ADANIPORTS",
+    "BAJFINANCE",
+    "BPCL",
+    "EICHERMOT",
+    "LT"
+  ],
+  "2021-08-23": [
+    "BPCL",
+    "TCS",
+    "DRREDDY",
+    "HEROMOTOCO",
+    "LTIM"
+  ],
+  "2021-08-24": [
+    "APOLLOHOSP",
+    "ASIANPAINT",
+    "TATAMOTORS",
+    "TITAN",
+    "EICHERMOT"
+  ],
+  "2021-08-25": [
+    "BPCL",
+    "TCS",
+    "TECHM",
+    "HDFCLIFE",
+    "MARUTI"
+  ],
+  "2021-08-26": [
+    "ONGC",
+    "BAJAJFINSV",
+    "BPCL",
+    "TCS",
+    "COALINDIA"
+  ],
+  "2021-08-27": [
+    "BAJAJFINSV",
+    "DIVISLAB",
+    "ULTRACEMCO",
+    "UPL",
+    "MARUTI"
+  ],
+  "2021-08-30": [
+    "ONGC",
+    "RELIANCE",
+    "DIVISLAB",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2021-08-31": [
+    "ONGC",
+    "RELIANCE",
+    "BPCL",
+    "DIVISLAB",
+    "MARUTI"
+  ],
+  "2021-09-01": [
+    "ONGC",
+    "BAJFINANCE",
+    "TCS",
+    "HDFCBANK",
+    "HINDUNILVR"
+  ],
+  "2021-09-02": [
+    "ADANIPORTS",
+    "BAJFINANCE",
+    "ULTRACEMCO",
+    "LT",
+    "LTIM"
+  ],
+  "2021-09-03": [
+    "TCS",
+    "TECHM",
+    "DIVISLAB",
+    "HCLTECH",
+    "HDFCLIFE"
+  ],
+  "2021-09-06": [
+    "BAJAJFINSV",
+    "DIVISLAB",
+    "EICHERMOT",
+    "LT",
+    "LTIM"
+  ],
+  "2021-09-07": [
+    "BAJFINANCE",
+    "TATAMOTORS",
+    "BRITANNIA",
+    "HDFCBANK",
+    "HDFCLIFE"
+  ],
+  "2021-09-08": [
+    "APOLLOHOSP",
+    "DIVISLAB",
+    "TITAN",
+    "DRREDDY",
+    "ULTRACEMCO"
+  ],
+  "2021-09-09": [
+    "BAJFINANCE",
+    "DIVISLAB",
+    "EICHERMOT",
+    "GRASIM",
+    "MARUTI"
+  ],
+  "2021-09-10": [
+    "BAJFINANCE",
+    "TATAMOTORS",
+    "EICHERMOT",
+    "LT",
+    "MARUTI"
+  ],
+  "2021-09-13": [
+    "ONGC",
+    "ADANIPORTS",
+    "BPCL",
+    "EICHERMOT",
+    "NTPC"
+  ],
+  "2021-09-14": [
+    "DRREDDY",
+    "ULTRACEMCO",
+    "HEROMOTOCO",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2021-09-15": [
+    "ADANIPORTS",
+    "APOLLOHOSP",
+    "TATAMOTORS",
+    "TITAN",
+    "EICHERMOT"
+  ],
+  "2021-09-16": [
+    "ADANIPORTS",
+    "ASIANPAINT",
+    "TCS",
+    "GRASIM",
+    "MARUTI"
+  ],
+  "2021-09-17": [
+    "ONGC",
+    "SBILIFE",
+    "COALINDIA",
+    "ULTRACEMCO",
+    "NTPC"
+  ],
+  "2021-09-20": [
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "DIVISLAB",
+    "HEROMOTOCO",
+    "MARUTI"
+  ],
+  "2021-09-21": [
+    "TCS",
+    "DIVISLAB",
+    "TITAN",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2021-09-22": [
+    "ONGC",
+    "GRASIM",
+    "HCLTECH",
+    "HDFCBANK",
+    "MARUTI"
+  ],
+  "2021-09-23": [
+    "ONGC",
+    "BAJFINANCE",
+    "TCS",
+    "HDFCBANK",
+    "HINDUNILVR"
+  ],
+  "2021-09-24": [
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "EICHERMOT",
+    "HEROMOTOCO",
+    "LTIM"
+  ],
+  "2021-09-27": [
+    "APOLLOHOSP",
+    "TCS",
+    "TECHM",
+    "DIVISLAB",
+    "GRASIM"
+  ],
+  "2021-09-28": [
+    "ASIANPAINT",
+    "BAJAJFINSV",
+    "EICHERMOT",
+    "LT",
+    "LTIM"
+  ],
+  "2021-09-29": [
+    "BAJFINANCE",
+    "BRITANNIA",
+    "DRREDDY",
+    "HDFCBANK",
+    "HDFCLIFE"
+  ],
+  "2021-09-30": [
+    "APOLLOHOSP",
+    "DIVISLAB",
+    "ULTRACEMCO",
+    "EICHERMOT",
+    "HEROMOTOCO"
+  ],
+  "2021-10-01": [
+    "BAJFINANCE",
+    "EICHERMOT",
+    "GRASIM",
+    "INDUSINDBK",
+    "LT"
+  ],
+  "2021-10-04": [
+    "BAJFINANCE",
+    "TATAMOTORS",
+    "EICHERMOT",
+    "HINDUNILVR",
+    "LT"
+  ],
+  "2021-10-05": [
+    "ADANIPORTS",
+    "BAJFINANCE",
+    "EICHERMOT",
+    "KOTAKBANK",
+    "NTPC"
+  ],
+  "2021-10-06": [
+    "DRREDDY",
+    "ULTRACEMCO",
+    "HEROMOTOCO",
+    "LT",
+    "LTIM"
+  ],
+  "2021-10-07": [
+    "APOLLOHOSP",
+    "BRITANNIA",
+    "TITAN",
+    "EICHERMOT",
+    "GRASIM"
+  ],
+  "2021-10-08": [
+    "ASIANPAINT",
+    "TATASTEEL",
+    "UPL",
+    "GRASIM",
+    "MARUTI"
+  ],
+  "2021-10-11": [
+    "SBILIFE",
+    "TATASTEEL",
+    "ULTRACEMCO",
+    "EICHERMOT",
+    "NTPC"
+  ],
+  "2021-10-12": [
+    "BAJFINANCE",
+    "DIVISLAB",
+    "ULTRACEMCO",
+    "INDUSINDBK",
+    "MARUTI"
+  ],
+  "2021-10-13": [
+    "APOLLOHOSP",
+    "DIVISLAB",
+    "EICHERMOT",
+    "LT",
+    "LTIM"
+  ],
+  "2021-10-14": [
+    "ONGC",
+    "BHARTIARTL",
+    "TATASTEEL",
+    "GRASIM",
+    "MARUTI"
+  ],
+  "2021-10-15": [
+    "TATASTEEL",
+    "TCS",
+    "HINDUNILVR",
+    "LT",
+    "NTPC"
+  ],
+  "2021-10-18": [
+    "DIVISLAB",
+    "ULTRACEMCO",
+    "GRASIM",
+    "LT",
+    "LTIM"
+  ],
+  "2021-10-19": [
+    "APOLLOHOSP",
+    "BAJAJFINSV",
+    "TCS",
+    "DIVISLAB",
+    "GRASIM"
+  ],
+  "2021-10-20": [
+    "BAJFINANCE",
+    "EICHERMOT",
+    "HINDUNILVR",
+    "LT",
+    "LTIM"
+  ],
+  "2021-10-21": [
+    "BAJFINANCE",
+    "BHARTIARTL",
+    "TATASTEEL",
+    "BRITANNIA",
+    "LTIM"
+  ],
+  "2021-10-22": [
+    "APOLLOHOSP",
+    "DIVISLAB",
+    "TITAN",
+    "ULTRACEMCO",
+    "EICHERMOT"
+  ],
+  "2021-10-25": [
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "EICHERMOT",
+    "GRASIM",
+    "HINDUNILVR"
+  ],
+  "2021-10-26": [
+    "TATASTEEL",
+    "TCS",
+    "EICHERMOT",
+    "LT",
+    "MARUTI"
+  ],
+  "2021-10-27": [
+    "ADANIPORTS",
+    "BAJFINANCE",
+    "TATASTEEL",
+    "ULTRACEMCO",
+    "EICHERMOT"
+  ],
+  "2021-10-28": [
+    "BRITANNIA",
+    "ULTRACEMCO",
+    "HEROMOTOCO",
+    "HINDUNILVR",
+    "LTIM"
+  ],
+  "2021-10-29": [
+    "ADANIPORTS",
+    "ULTRACEMCO",
+    "EICHERMOT",
+    "INFY",
+    "LT"
+  ],
+  "2021-11-01": [
+    "TATACONSUM",
+    "TATASTEEL",
+    "TCS",
+    "GRASIM",
+    "MARUTI"
+  ],
+  "2021-11-02": [
+    "SBILIFE",
+    "TATASTEEL",
+    "ULTRACEMCO",
+    "EICHERMOT",
+    "GRASIM"
+  ],
+  "2021-11-03": [
+    "BAJFINANCE",
+    "ULTRACEMCO",
+    "INDUSINDBK",
+    "LT",
+    "MARUTI"
+  ],
+  "2021-11-04": [
+    "TCS",
+    "TECHM",
+    "DIVISLAB",
+    "LT",
+    "LTIM"
+  ],
+  "2021-11-05": [
+    "APOLLOHOSP",
+    "RELIANCE",
+    "TATASTEEL",
+    "GRASIM",
+    "HDFCBANK"
+  ],
+  "2021-11-08": [
+    "SUNPHARMA",
+    "ULTRACEMCO",
+    "HDFCLIFE",
+    "HINDUNILVR",
+    "MARUTI"
+  ],
+  "2021-11-09": [
+    "BAJAJFINSV",
+    "DIVISLAB",
+    "ULTRACEMCO",
+    "EICHERMOT",
+    "LT"
+  ],
+  "2021-11-10": [
+    "APOLLOHOSP",
+    "TCS",
+    "DIVISLAB",
+    "HCLTECH",
+    "HDFCLIFE"
+  ],
+  "2021-11-11": [
+    "BAJFINANCE",
+    "EICHERMOT",
+    "LT",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2021-11-12": [
+    "BAJFINANCE",
+    "BHARTIARTL",
+    "BRITANNIA",
+    "CIPLA",
+    "LTIM"
+  ],
+  "2021-11-15": [
+    "APOLLOHOSP",
+    "BHARTIARTL",
+    "DIVISLAB",
+    "ULTRACEMCO",
+    "LTIM"
+  ],
+  "2021-11-16": [
+    "BAJAJFINSV",
+    "BRITANNIA",
+    "EICHERMOT",
+    "HINDUNILVR",
+    "MARUTI"
+  ],
+  "2021-11-17": [
+    "APOLLOHOSP",
+    "TCS",
+    "EICHERMOT",
+    "LT",
+    "MARUTI"
+  ],
+  "2021-11-18": [
+    "BAJFINANCE",
+    "TCS",
+    "ULTRACEMCO",
+    "EICHERMOT",
+    "GRASIM"
+  ],
+  "2021-11-19": [
+    "ASIANPAINT",
+    "BAJFINANCE",
+    "BRITANNIA",
+    "ULTRACEMCO",
+    "LTIM"
+  ],
+  "2021-11-22": [
+    "EICHERMOT",
+    "HDFCLIFE",
+    "INFY",
+    "LT",
+    "MARUTI"
+  ],
+  "2021-11-23": [
+    "TCS",
+    "HEROMOTOCO",
+    "HINDUNILVR",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2021-11-24": [
+    "TCS",
+    "ULTRACEMCO",
+    "GRASIM",
+    "HCLTECH",
+    "ITC"
+  ],
+  "2021-11-25": [
+    "BAJFINANCE",
+    "DIVISLAB",
+    "INDUSINDBK",
+    "LT",
+    "MARUTI"
+  ],
+  "2021-11-26": [
+    "ASIANPAINT",
+    "BAJFINANCE",
+    "TECHM",
+    "DIVISLAB",
+    "MARUTI"
+  ],
+  "2021-11-29": [
+    "ONGC",
+    "APOLLOHOSP",
+    "TITAN",
+    "HCLTECH",
+    "HDFCBANK"
+  ],
+  "2021-11-30": [
+    "APOLLOHOSP",
+    "ULTRACEMCO",
+    "HDFCLIFE",
+    "HINDUNILVR",
+    "MARUTI"
+  ],
+  "2021-12-01": [
+    "DIVISLAB",
+    "GRASIM",
+    "HEROMOTOCO",
+    "INDUSINDBK",
+    "LT"
+  ],
+  "2021-12-02": [
+    "AXISBANK",
+    "BAJAJFINSV",
+    "HINDUNILVR",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2021-12-03": [
+    "APOLLOHOSP",
+    "BPCL",
+    "EICHERMOT",
+    "LT",
+    "MARUTI"
+  ],
+  "2021-12-06": [
+    "RELIANCE",
+    "BRITANNIA",
+    "HDFCLIFE",
+    "KOTAKBANK",
+    "LTIM"
+  ],
+  "2021-12-07": [
+    "APOLLOHOSP",
+    "DIVISLAB",
+    "ULTRACEMCO",
+    "HDFCBANK",
+    "KOTAKBANK"
+  ],
+  "2021-12-08": [
+    "BRITANNIA",
+    "EICHERMOT",
+    "WIPRO",
+    "HINDUNILVR",
+    "MARUTI"
+  ],
+  "2021-12-09": [
+    "APOLLOHOSP",
+    "TATAMOTORS",
+    "CIPLA",
+    "LT",
+    "MARUTI"
+  ],
+  "2021-12-10": [
+    "AXISBANK",
+    "BAJFINANCE",
+    "TCS",
+    "TITAN",
+    "ULTRACEMCO"
+  ],
+  "2021-12-13": [
+    "BAJFINANCE",
+    "BRITANNIA",
+    "DRREDDY",
+    "ULTRACEMCO",
+    "LTIM"
+  ],
+  "2021-12-14": [
+    "BRITANNIA",
+    "EICHERMOT",
+    "LT",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2021-12-15": [
+    "TCS",
+    "EICHERMOT",
+    "GRASIM",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2021-12-16": [
+    "TCS",
+    "TECHM",
+    "COALINDIA",
+    "GRASIM",
+    "HCLTECH"
+  ],
+  "2021-12-17": [
+    "AXISBANK",
+    "BAJFINANCE",
+    "BRITANNIA",
+    "INDUSINDBK",
+    "LT"
+  ],
+  "2021-12-20": [
+    "ASIANPAINT",
+    "COALINDIA",
+    "DIVISLAB",
+    "TECHM",
+    "MARUTI"
+  ],
+  "2021-12-21": [
+    "ONGC",
+    "COALINDIA",
+    "TITAN",
+    "HDFCBANK",
+    "LTIM"
+  ],
+  "2021-12-22": [
+    "APOLLOHOSP",
+    "TCS",
+    "COALINDIA",
+    "HCLTECH",
+    "NTPC"
+  ],
+  "2021-12-23": [
+    "BPCL",
+    "COALINDIA",
+    "GRASIM",
+    "INDUSINDBK",
+    "LT"
+  ],
+  "2021-12-24": [
+    "AXISBANK",
+    "BRITANNIA",
+    "HCLTECH",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2021-12-27": [
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "EICHERMOT",
+    "LT",
+    "MARUTI"
+  ],
+  "2021-12-28": [
+    "RELIANCE",
+    "SUNPHARMA",
+    "BRITANNIA",
+    "KOTAKBANK",
+    "LTIM"
+  ],
+  "2021-12-29": [
+    "APOLLOHOSP",
+    "ULTRACEMCO",
+    "HCLTECH",
+    "HDFCBANK",
+    "LTIM"
+  ],
+  "2021-12-30": [
+    "BRITANNIA",
+    "TECHM",
+    "EICHERMOT",
+    "HINDUNILVR",
+    "MARUTI"
+  ],
+  "2021-12-31": [
+    "APOLLOHOSP",
+    "DRREDDY",
+    "M&M",
+    "MARUTI",
+    "NTPC"
+  ],
+  "2022-01-03": [
+    "BAJFINANCE",
+    "TATAMOTORS",
+    "TITAN",
+    "ULTRACEMCO",
+    "INDUSINDBK"
+  ],
+  "2022-01-04": [
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "BRITANNIA",
+    "DRREDDY",
+    "HEROMOTOCO"
+  ],
+  "2022-01-05": [
+    "EICHERMOT",
+    "LT",
+    "LTIM",
+    "M&M",
+    "MARUTI"
+  ],
+  "2022-01-06": [
+    "APOLLOHOSP",
+    "TITAN",
+    "GRASIM",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2022-01-07": [
+    "GRASIM",
+    "HCLTECH",
+    "HINDALCO",
+    "LTIM",
+    "NTPC"
+  ],
+  "2022-01-10": [
+    "AXISBANK",
+    "BAJFINANCE",
+    "DIVISLAB",
+    "EICHERMOT",
+    "LT"
+  ],
+  "2022-01-11": [
+    "TECHM",
+    "TITAN",
+    "ICICIBANK",
+    "KOTAKBANK",
+    "LTIM"
+  ],
+  "2022-01-12": [
+    "BHARTIARTL",
+    "TATASTEEL",
+    "HDFCBANK",
+    "KOTAKBANK",
+    "LTIM"
+  ],
+  "2022-01-13": [
+    "APOLLOHOSP",
+    "TATASTEEL",
+    "INDUSINDBK",
+    "LT",
+    "NTPC"
+  ],
+  "2022-01-14": [
+    "TITAN",
+    "GRASIM",
+    "HEROMOTOCO",
+    "INDUSINDBK",
+    "LT"
+  ],
+  "2022-01-17": [
+    "AXISBANK",
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2022-01-18": [
+    "APOLLOHOSP",
+    "ASIANPAINT",
+    "BAJFINANCE",
+    "LT",
+    "MARUTI"
+  ],
+  "2022-01-19": [
+    "APOLLOHOSP",
+    "BRITANNIA",
+    "TECHM",
+    "KOTAKBANK",
+    "LTIM"
+  ],
+  "2022-01-20": [
+    "APOLLOHOSP",
+    "ULTRACEMCO",
+    "HDFCBANK",
+    "ICICIBANK",
+    "LTIM"
+  ],
+  "2022-01-21": [
+    "ONGC",
+    "BRITANNIA",
+    "TECHM",
+    "HINDUNILVR",
+    "LT"
+  ],
+  "2022-01-24": [
+    "APOLLOHOSP",
+    "CIPLA",
+    "M&M",
+    "MARUTI",
+    "NTPC"
+  ],
+  "2022-01-25": [
+    "BAJFINANCE",
+    "TATAMOTORS",
+    "TITAN",
+    "ULTRACEMCO",
+    "INDUSINDBK"
+  ],
+  "2022-01-26": [
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "BRITANNIA",
+    "HEROMOTOCO",
+    "LT"
+  ],
+  "2022-01-27": [
+    "TATAMOTORS",
+    "EICHERMOT",
+    "LT",
+    "M&M",
+    "MARUTI"
+  ],
+  "2022-01-28": [
+    "TATACONSUM",
+    "TITAN",
+    "EICHERMOT",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2022-01-31": [
+    "BAJFINANCE",
+    "BRITANNIA",
+    "ULTRACEMCO",
+    "GRASIM",
+    "LTIM"
+  ],
+  "2022-02-01": [
+    "APOLLOHOSP",
+    "AXISBANK",
+    "EICHERMOT",
+    "HEROMOTOCO",
+    "LT"
+  ],
+  "2022-02-02": [
+    "DIVISLAB",
+    "TITAN",
+    "INFY",
+    "KOTAKBANK",
+    "MARUTI"
+  ],
+  "2022-02-03": [
+    "BHARTIARTL",
+    "HDFCBANK",
+    "HINDUNILVR",
+    "KOTAKBANK",
+    "LTIM"
+  ],
+  "2022-02-04": [
+    "POWERGRID",
+    "BHARTIARTL",
+    "CIPLA",
+    "INFY",
+    "MARUTI"
+  ],
+  "2022-02-07": [
+    "ASIANPAINT",
+    "TITAN",
+    "GRASIM",
+    "INDUSINDBK",
+    "LT"
+  ],
+  "2022-02-08": [
+    "BAJFINANCE",
+    "ULTRACEMCO",
+    "HEROMOTOCO",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2022-02-09": [
+    "ASIANPAINT",
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "LT",
+    "MARUTI"
+  ],
+  "2022-02-10": [
+    "APOLLOHOSP",
+    "BRITANNIA",
+    "TECHM",
+    "DIVISLAB",
+    "KOTAKBANK"
+  ],
+  "2022-02-11": [
+    "ADANIPORTS",
+    "ULTRACEMCO",
+    "HCLTECH",
+    "ICICIBANK",
+    "LTIM"
+  ],
+  "2022-02-14": [
+    "BAJAJFINSV",
+    "DIVISLAB",
+    "GRASIM",
+    "HINDUNILVR",
+    "LTIM"
+  ],
+  "2022-02-15": [
+    "ONGC",
+    "POWERGRID",
+    "APOLLOHOSP",
+    "CIPLA",
+    "MARUTI"
+  ],
+  "2022-02-16": [
+    "BAJFINANCE",
+    "TECHM",
+    "TITAN",
+    "ULTRACEMCO",
+    "INDUSINDBK"
+  ],
+  "2022-02-17": [
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "BRITANNIA",
+    "TCS",
+    "DRREDDY"
+  ],
+  "2022-02-18": [
+    "EICHERMOT",
+    "HEROMOTOCO",
+    "INFY",
+    "LT",
+    "MARUTI"
+  ],
+  "2022-02-21": [
+    "BAJFINANCE",
+    "TATACONSUM",
+    "WIPRO",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2022-02-22": [
+    "BAJFINANCE",
+    "GRASIM",
+    "WIPRO",
+    "HCLTECH",
+    "LTIM"
+  ],
+  "2022-02-23": [
+    "AXISBANK",
+    "DIVISLAB",
+    "WIPRO",
+    "HEROMOTOCO",
+    "LT"
+  ],
+  "2022-02-24": [
+    "ASIANPAINT",
+    "DIVISLAB",
+    "TITAN",
+    "KOTAKBANK",
+    "MARUTI"
+  ],
+  "2022-02-25": [
+    "BRITANNIA",
+    "HDFCBANK",
+    "HINDUNILVR",
+    "KOTAKBANK",
+    "LTIM"
+  ],
+  "2022-02-28": [
+    "POWERGRID",
+    "SBILIFE",
+    "WIPRO",
+    "HDFCLIFE",
+    "INFY"
+  ],
+  "2022-03-01": [
+    "TITAN",
+    "GRASIM",
+    "INDUSINDBK",
+    "LT",
+    "MARUTI"
+  ],
+  "2022-03-02": [
+    "BAJFINANCE",
+    "BRITANNIA",
+    "HCLTECH",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2022-03-03": [
+    "ASIANPAINT",
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "BRITANNIA",
+    "MARUTI"
+  ],
+  "2022-03-04": [
+    "BRITANNIA",
+    "TECHM",
+    "DIVISLAB",
+    "WIPRO",
+    "KOTAKBANK"
+  ],
+  "2022-03-07": [
+    "APOLLOHOSP",
+    "ULTRACEMCO",
+    "HCLTECH",
+    "HDFCBANK",
+    "ICICIBANK"
+  ],
+  "2022-03-08": [
+    "SBILIFE",
+    "DIVISLAB",
+    "WIPRO",
+    "GRASIM",
+    "LTIM"
+  ],
+  "2022-03-09": [
+    "APOLLOHOSP",
+    "CIPLA",
+    "INFY",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2022-03-10": [
+    "SBILIFE",
+    "BAJFINANCE",
+    "TATACONSUM",
+    "TCS",
+    "LTIM"
+  ],
+  "2022-03-11": [
+    "ONGC",
+    "BRITANNIA",
+    "TCS",
+    "WIPRO",
+    "INDUSINDBK"
+  ],
+  "2022-03-14": [
+    "EICHERMOT",
+    "INFY",
+    "LT",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2022-03-15": [
+    "BAJFINANCE",
+    "TITAN",
+    "EICHERMOT",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2022-03-16": [
+    "GRASIM",
+    "HCLTECH",
+    "WIPRO",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2022-03-17": [
+    "AXISBANK",
+    "DIVISLAB",
+    "HCLTECH",
+    "MARUTI",
+    "NTPC"
+  ],
+  "2022-03-18": [
+    "COALINDIA",
+    "DIVISLAB",
+    "TITAN",
+    "HEROMOTOCO",
+    "MARUTI"
+  ],
+  "2022-03-21": [
+    "RELIANCE",
+    "BAJFINANCE",
+    "BRITANNIA",
+    "HINDUNILVR",
+    "LTIM"
+  ],
+  "2022-03-22": [
+    "POWERGRID",
+    "SBILIFE",
+    "BPCL",
+    "MARUTI",
+    "NTPC"
+  ],
+  "2022-03-23": [
+    "TCS",
+    "TITAN",
+    "ULTRACEMCO",
+    "GRASIM",
+    "MARUTI"
+  ],
+  "2022-03-24": [
+    "AXISBANK",
+    "SBILIFE",
+    "BAJFINANCE",
+    "EICHERMOT",
+    "MARUTI"
+  ],
+  "2022-03-25": [
+    "ASIANPAINT",
+    "BAJFINANCE",
+    "BRITANNIA",
+    "MARUTI",
+    "NTPC"
+  ],
+  "2022-03-28": [
+    "BAJFINANCE",
+    "DIVISLAB",
+    "KOTAKBANK",
+    "M&M",
+    "MARUTI"
+  ],
+  "2022-03-29": [
+    "APOLLOHOSP",
+    "ULTRACEMCO",
+    "HDFCBANK",
+    "ICICIBANK",
+    "INDUSINDBK"
+  ],
+  "2022-03-30": [
+    "ONGC",
+    "SUNPHARMA",
+    "DIVISLAB",
+    "DRREDDY",
+    "GRASIM"
+  ],
+  "2022-03-31": [
+    "APOLLOHOSP",
+    "ASIANPAINT",
+    "TCS",
+    "INFY",
+    "LTIM"
+  ],
+  "2022-04-01": [
+    "BAJFINANCE",
+    "HDFCBANK",
+    "HINDUNILVR",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2022-04-04": [
+    "ONGC",
+    "AXISBANK",
+    "BPCL",
+    "BRITANNIA",
+    "TCS"
+  ],
+  "2022-04-05": [
+    "APOLLOHOSP",
+    "EICHERMOT",
+    "GRASIM",
+    "LT",
+    "MARUTI"
+  ],
+  "2022-04-06": [
+    "BAJFINANCE",
+    "ULTRACEMCO",
+    "EICHERMOT",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2022-04-07": [
+    "BAJFINANCE",
+    "GRASIM",
+    "HCLTECH",
+    "HDFCBANK",
+    "MARUTI"
+  ],
+  "2022-04-08": [
+    "AXISBANK",
+    "SUNPHARMA",
+    "BRITANNIA",
+    "DIVISLAB",
+    "NTPC"
+  ],
+  "2022-04-11": [
+    "COALINDIA",
+    "DIVISLAB",
+    "TITAN",
+    "HEROMOTOCO",
+    "ICICIBANK"
+  ],
+  "2022-04-12": [
+    "RELIANCE",
+    "BAJFINANCE",
+    "BRITANNIA",
+    "ULTRACEMCO",
+    "HINDUNILVR"
+  ],
+  "2022-04-13": [
+    "AXISBANK",
+    "SBILIFE",
+    "BHARTIARTL",
+    "TATASTEEL",
+    "NTPC"
+  ],
+  "2022-04-14": [
+    "BAJFINANCE",
+    "TCS",
+    "TITAN",
+    "GRASIM",
+    "MARUTI"
+  ],
+  "2022-04-15": [
+    "AXISBANK",
+    "BAJFINANCE",
+    "BRITANNIA",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2022-04-18": [
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "BRITANNIA",
+    "INFY",
+    "MARUTI"
+  ],
+  "2022-04-19": [
+    "SUNPHARMA",
+    "TATAMOTORS",
+    "DIVISLAB",
+    "TITAN",
+    "M&M"
+  ],
+  "2022-04-20": [
+    "COALINDIA",
+    "EICHERMOT",
+    "HDFCBANK",
+    "ICICIBANK",
+    "INDUSINDBK"
+  ],
+  "2022-04-21": [
+    "APOLLOHOSP",
+    "SUNPHARMA",
+    "DIVISLAB",
+    "GRASIM",
+    "M&M"
+  ],
+  "2022-04-22": [
+    "TATAMOTORS",
+    "TCS",
+    "CIPLA",
+    "DIVISLAB",
+    "INDUSINDBK"
+  ],
+  "2022-04-25": [
+    "BAJFINANCE",
+    "HEROMOTOCO",
+    "HINDUNILVR",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2022-04-26": [
+    "ONGC",
+    "BRITANNIA",
+    "TCS",
+    "HEROMOTOCO",
+    "INFY"
+  ],
+  "2022-04-27": [
+    "APOLLOHOSP",
+    "EICHERMOT",
+    "HEROMOTOCO",
+    "LT",
+    "MARUTI"
+  ],
+  "2022-04-28": [
+    "BAJFINANCE",
+    "ULTRACEMCO",
+    "EICHERMOT",
+    "KOTAKBANK",
+    "MARUTI"
+  ],
+  "2022-04-29": [
+    "BAJFINANCE",
+    "EICHERMOT",
+    "GRASIM",
+    "HDFCBANK",
+    "MARUTI"
+  ],
+  "2022-05-02": [
+    "ADANIPORTS",
+    "ONGC",
+    "CIPLA",
+    "DIVISLAB",
+    "NTPC"
+  ],
+  "2022-05-03": [
+    "APOLLOHOSP",
+    "BRITANNIA",
+    "DIVISLAB",
+    "TITAN",
+    "HEROMOTOCO"
+  ],
+  "2022-05-04": [
+    "RELIANCE",
+    "BRITANNIA",
+    "ULTRACEMCO",
+    "HINDUNILVR",
+    "LT"
+  ],
+  "2022-05-05": [
+    "ONGC",
+    "AXISBANK",
+    "BHARTIARTL",
+    "TATASTEEL",
+    "INFY"
+  ],
+  "2022-05-06": [
+    "BAJFINANCE",
+    "TCS",
+    "TITAN",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2022-05-09": [
+    "ASIANPAINT",
+    "BAJFINANCE",
+    "BRITANNIA",
+    "COALINDIA",
+    "MARUTI"
+  ],
+  "2022-05-10": [
+    "ASIANPAINT",
+    "BAJFINANCE",
+    "BRITANNIA",
+    "INFY",
+    "MARUTI"
+  ],
+  "2022-05-11": [
+    "BHARTIARTL",
+    "TECHM",
+    "DIVISLAB",
+    "TITAN",
+    "M&M"
+  ],
+  "2022-05-12": [
+    "BAJFINANCE",
+    "TITAN",
+    "EICHERMOT",
+    "INFY",
+    "LTIM"
+  ],
+  "2022-05-13": [
+    "APOLLOHOSP",
+    "SUNPHARMA",
+    "BAJFINANCE",
+    "CIPLA",
+    "DIVISLAB"
+  ],
+  "2022-05-16": [
+    "TATASTEEL",
+    "CIPLA",
+    "GRASIM",
+    "HDFCBANK",
+    "ITC"
+  ],
+  "2022-05-17": [
+    "BAJFINANCE",
+    "BRITANNIA",
+    "HEROMOTOCO",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2022-05-18": [
+    "ONGC",
+    "BRITANNIA",
+    "TCS",
+    "WIPRO",
+    "HEROMOTOCO"
+  ],
+  "2022-05-19": [
+    "APOLLOHOSP",
+    "RELIANCE",
+    "EICHERMOT",
+    "HEROMOTOCO",
+    "MARUTI"
+  ],
+  "2022-05-20": [
+    "BAJFINANCE",
+    "BRITANNIA",
+    "TITAN",
+    "EICHERMOT",
+    "MARUTI"
+  ],
+  "2022-05-23": [
+    "BAJFINANCE",
+    "EICHERMOT",
+    "HDFCBANK",
+    "HINDALCO",
+    "MARUTI"
+  ],
+  "2022-05-24": [
+    "ADANIPORTS",
+    "APOLLOHOSP",
+    "CIPLA",
+    "DIVISLAB",
+    "DRREDDY"
+  ],
+  "2022-05-25": [
+    "BAJFINANCE",
+    "BRITANNIA",
+    "TITAN",
+    "DIVISLAB",
+    "HEROMOTOCO"
+  ],
+  "2022-05-26": [
+    "RELIANCE",
+    "BRITANNIA",
+    "HINDALCO",
+    "HINDUNILVR",
+    "LT"
+  ],
+  "2022-05-27": [
+    "RELIANCE",
+    "AXISBANK",
+    "TATASTEEL",
+    "CIPLA",
+    "ULTRACEMCO"
+  ],
+  "2022-05-30": [
+    "BAJFINANCE",
+    "TCS",
+    "TITAN",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2022-05-31": [
+    "ASIANPAINT",
+    "BAJFINANCE",
+    "BRITANNIA",
+    "EICHERMOT",
+    "MARUTI"
+  ],
+  "2022-06-01": [
+    "BAJFINANCE",
+    "BRITANNIA",
+    "WIPRO",
+    "INFY",
+    "MARUTI"
+  ],
+  "2022-06-02": [
+    "SUNPHARMA",
+    "TECHM",
+    "TITAN",
+    "WIPRO",
+    "JSWSTEEL"
+  ],
+  "2022-06-03": [
+    "RELIANCE",
+    "TITAN",
+    "EICHERMOT",
+    "KOTAKBANK",
+    "LTIM"
+  ],
+  "2022-06-06": [
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "TATASTEEL",
+    "CIPLA",
+    "HINDALCO"
+  ],
+  "2022-06-07": [
+    "SUNPHARMA",
+    "CIPLA",
+    "DIVISLAB",
+    "GRASIM",
+    "HDFCBANK"
+  ],
+  "2022-06-08": [
+    "BAJFINANCE",
+    "TATACONSUM",
+    "HEROMOTOCO",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2022-06-09": [
+    "TATASTEEL",
+    "TCS",
+    "WIPRO",
+    "HEROMOTOCO",
+    "INFY"
+  ],
+  "2022-06-10": [
+    "APOLLOHOSP",
+    "ASIANPAINT",
+    "ULTRACEMCO",
+    "EICHERMOT",
+    "GRASIM"
+  ],
+  "2022-06-13": [
+    "BAJFINANCE",
+    "TITAN",
+    "EICHERMOT",
+    "HINDALCO",
+    "MARUTI"
+  ],
+  "2022-06-14": [
+    "BAJFINANCE",
+    "EICHERMOT",
+    "WIPRO",
+    "HDFCBANK",
+    "MARUTI"
+  ],
+  "2022-06-15": [
+    "ADANIPORTS",
+    "CIPLA",
+    "DIVISLAB",
+    "HDFCLIFE",
+    "ITC"
+  ],
+  "2022-06-16": [
+    "SUNPHARMA",
+    "TATASTEEL",
+    "BRITANNIA",
+    "DIVISLAB",
+    "TITAN"
+  ],
+  "2022-06-17": [
+    "RELIANCE",
+    "TATASTEEL",
+    "BRITANNIA",
+    "LT",
+    "M&M"
+  ],
+  "2022-06-20": [
+    "ONGC",
+    "RELIANCE",
+    "AXISBANK",
+    "BPCL",
+    "TATASTEEL"
+  ],
+  "2022-06-21": [
+    "BAJFINANCE",
+    "TCS",
+    "TITAN",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2022-06-22": [
+    "ASIANPAINT",
+    "TATACONSUM",
+    "TATASTEEL",
+    "TCS",
+    "BRITANNIA"
+  ],
+  "2022-06-23": [
+    "BRITANNIA",
+    "ULTRACEMCO",
+    "HEROMOTOCO",
+    "INFY",
+    "MARUTI"
+  ],
+  "2022-06-24": [
+    "SUNPHARMA",
+    "BPCL",
+    "TATAMOTORS",
+    "M&M",
+    "MARUTI"
+  ],
+  "2022-06-27": [
+    "RELIANCE",
+    "DIVISLAB",
+    "EICHERMOT",
+    "ICICIBANK",
+    "LTIM"
+  ],
+  "2022-06-28": [
+    "APOLLOHOSP",
+    "TCS",
+    "DIVISLAB",
+    "EICHERMOT",
+    "GRASIM"
+  ],
+  "2022-06-29": [
+    "SUNPHARMA",
+    "BPCL",
+    "GRASIM",
+    "HDFCBANK",
+    "INDUSINDBK"
+  ],
+  "2022-06-30": [
+    "SBIN",
+    "HEROMOTOCO",
+    "HINDUNILVR",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2022-07-01": [
+    "ONGC",
+    "TCS",
+    "HDFCLIFE",
+    "HEROMOTOCO",
+    "INFY"
+  ],
+  "2022-07-04": [
+    "APOLLOHOSP",
+    "ASIANPAINT",
+    "ULTRACEMCO",
+    "GRASIM",
+    "LTIM"
+  ],
+  "2022-07-05": [
+    "BAJFINANCE",
+    "BRITANNIA",
+    "CIPLA",
+    "HINDUNILVR",
+    "MARUTI"
+  ],
+  "2022-07-06": [
+    "ASIANPAINT",
+    "SUNPHARMA",
+    "EICHERMOT",
+    "KOTAKBANK",
+    "MARUTI"
+  ],
+  "2022-07-07": [
+    "ADANIPORTS",
+    "POWERGRID",
+    "CIPLA",
+    "DIVISLAB",
+    "HDFCLIFE"
+  ],
+  "2022-07-08": [
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "BRITANNIA",
+    "DIVISLAB",
+    "MARUTI"
+  ],
+  "2022-07-11": [
+    "RELIANCE",
+    "BRITANNIA",
+    "UPL",
+    "LT",
+    "M&M"
+  ],
+  "2022-07-12": [
+    "ONGC",
+    "RELIANCE",
+    "AXISBANK",
+    "ITC",
+    "NTPC"
+  ],
+  "2022-07-13": [
+    "BAJFINANCE",
+    "TCS",
+    "TITAN",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2022-07-14": [
+    "ASIANPAINT",
+    "SUNPHARMA",
+    "BRITANNIA",
+    "TCS",
+    "NTPC"
+  ],
+  "2022-07-15": [
+    "BRITANNIA",
+    "TITAN",
+    "GRASIM",
+    "HDFCLIFE",
+    "INFY"
+  ],
+  "2022-07-18": [
+    "SUNPHARMA",
+    "TECHM",
+    "EICHERMOT",
+    "HEROMOTOCO",
+    "MARUTI"
+  ],
+  "2022-07-19": [
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "DIVISLAB",
+    "EICHERMOT",
+    "HEROMOTOCO"
+  ],
+  "2022-07-20": [
+    "APOLLOHOSP",
+    "ASIANPAINT",
+    "SUNPHARMA",
+    "EICHERMOT",
+    "KOTAKBANK"
+  ],
+  "2022-07-21": [
+    "SUNPHARMA",
+    "BHARTIARTL",
+    "GRASIM",
+    "HDFCBANK",
+    "NTPC"
+  ],
+  "2022-07-22": [
+    "BRITANNIA",
+    "HEROMOTOCO",
+    "HINDUNILVR",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2022-07-25": [
+    "BRITANNIA",
+    "TCS",
+    "HDFCLIFE",
+    "HEROMOTOCO",
+    "INFY"
+  ],
+  "2022-07-26": [
+    "ASIANPAINT",
+    "ULTRACEMCO",
+    "GRASIM",
+    "HINDUNILVR",
+    "LT"
+  ],
+  "2022-07-27": [
+    "BRITANNIA",
+    "CIPLA",
+    "HINDUNILVR",
+    "KOTAKBANK",
+    "MARUTI"
+  ],
+  "2022-07-28": [
+    "ASIANPAINT",
+    "EICHERMOT",
+    "HDFCBANK",
+    "KOTAKBANK",
+    "MARUTI"
+  ],
+  "2022-07-29": [
+    "RELIANCE",
+    "CIPLA",
+    "DIVISLAB",
+    "HINDUNILVR",
+    "LTIM"
+  ],
+  "2022-08-01": [
+    "BAJFINANCE",
+    "SUNPHARMA",
+    "BRITANNIA",
+    "DIVISLAB",
+    "MARUTI"
+  ],
+  "2022-08-02": [
+    "ONGC",
+    "TATAMOTORS",
+    "DRREDDY",
+    "HCLTECH",
+    "NTPC"
+  ],
+  "2022-08-03": [
+    "RELIANCE",
+    "AXISBANK",
+    "CIPLA",
+    "INDUSINDBK",
+    "MARUTI"
+  ],
+  "2022-08-04": [
+    "BAJFINANCE",
+    "TCS",
+    "TITAN",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2022-08-05": [
+    "BAJFINANCE",
+    "BRITANNIA",
+    "TCS",
+    "COALINDIA",
+    "NTPC"
+  ],
+  "2022-08-08": [
+    "TECHM",
+    "HDFCLIFE",
+    "INFY",
+    "LT",
+    "NTPC"
+  ],
+  "2022-08-09": [
+    "APOLLOHOSP",
+    "SUNPHARMA",
+    "EICHERMOT",
+    "GRASIM",
+    "MARUTI"
+  ],
+  "2022-08-10": [
+    "BRITANNIA",
+    "EICHERMOT",
+    "HDFCBANK",
+    "HEROMOTOCO",
+    "MARUTI"
+  ],
+  "2022-08-11": [
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "HDFCLIFE",
+    "KOTAKBANK",
+    "LTIM"
+  ],
+  "2022-08-12": [
+    "BHARTIARTL",
+    "GRASIM",
+    "HDFCBANK",
+    "ITC",
+    "NTPC"
+  ],
+  "2022-08-15": [
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "BRITANNIA",
+    "HEROMOTOCO",
+    "MARUTI"
+  ],
+  "2022-08-16": [
+    "BAJFINANCE",
+    "TCS",
+    "HEROMOTOCO",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2022-08-17": [
+    "ASIANPAINT",
+    "BAJFINANCE",
+    "ULTRACEMCO",
+    "GRASIM",
+    "MARUTI"
+  ],
+  "2022-08-18": [
+    "ONGC",
+    "BRITANNIA",
+    "CIPLA",
+    "INFY",
+    "KOTAKBANK"
+  ],
+  "2022-08-19": [
+    "BAJFINANCE",
+    "EICHERMOT",
+    "HDFCBANK",
+    "KOTAKBANK",
+    "MARUTI"
+  ],
+  "2022-08-22": [
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "CIPLA",
+    "ULTRACEMCO",
+    "INDUSINDBK"
+  ],
+  "2022-08-23": [
+    "BAJFINANCE",
+    "BRITANNIA",
+    "DIVISLAB",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2022-08-24": [
+    "ONGC",
+    "ASIANPAINT",
+    "BAJFINANCE",
+    "DRREDDY",
+    "LT"
+  ],
+  "2022-08-25": [
+    "AXISBANK",
+    "ULTRACEMCO",
+    "EICHERMOT",
+    "HINDUNILVR",
+    "M&M"
+  ],
+  "2022-08-26": [
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "TCS",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2022-08-29": [
+    "ASIANPAINT",
+    "RELIANCE",
+    "TATASTEEL",
+    "TCS",
+    "COALINDIA"
+  ],
+  "2022-08-30": [
+    "BRITANNIA",
+    "TITAN",
+    "ULTRACEMCO",
+    "GRASIM",
+    "LT"
+  ],
+  "2022-08-31": [
+    "SUNPHARMA",
+    "BRITANNIA",
+    "EICHERMOT",
+    "GRASIM",
+    "MARUTI"
+  ],
+  "2022-09-01": [
+    "BRITANNIA",
+    "EICHERMOT",
+    "HEROMOTOCO",
+    "KOTAKBANK",
+    "MARUTI"
+  ],
+  "2022-09-02": [
+    "BAJFINANCE",
+    "TCS",
+    "KOTAKBANK",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2022-09-05": [
+    "BHARTIARTL",
+    "BRITANNIA",
+    "HDFCBANK",
+    "HEROMOTOCO",
+    "HINDUNILVR"
+  ],
+  "2022-09-06": [
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "TATASTEEL",
+    "EICHERMOT",
+    "MARUTI"
+  ],
+  "2022-09-07": [
+    "BAJFINANCE",
+    "BRITANNIA",
+    "TCS",
+    "HEROMOTOCO",
+    "LTIM"
+  ],
+  "2022-09-08": [
+    "ASIANPAINT",
+    "GRASIM",
+    "HINDUNILVR",
+    "ITC",
+    "MARUTI"
+  ],
+  "2022-09-09": [
+    "ASIANPAINT",
+    "BRITANNIA",
+    "CIPLA",
+    "HINDUNILVR",
+    "INFY"
+  ],
+  "2022-09-12": [
+    "ULTRACEMCO",
+    "EICHERMOT",
+    "HDFCBANK",
+    "KOTAKBANK",
+    "MARUTI"
+  ],
+  "2022-09-13": [
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "CIPLA",
+    "GRASIM",
+    "INFY"
+  ],
+  "2022-09-14": [
+    "BAJFINANCE",
+    "BRITANNIA",
+    "CIPLA",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2022-09-15": [
+    "ASIANPAINT",
+    "BAJFINANCE",
+    "DRREDDY",
+    "LT",
+    "MARUTI"
+  ],
+  "2022-09-16": [
+    "ULTRACEMCO",
+    "EICHERMOT",
+    "HINDUNILVR",
+    "INDUSINDBK",
+    "M&M"
+  ],
+  "2022-09-19": [
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "TCS",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2022-09-20": [
+    "ASIANPAINT",
+    "BRITANNIA",
+    "TCS",
+    "HEROMOTOCO",
+    "LTIM"
+  ],
+  "2022-09-21": [
+    "ASIANPAINT",
+    "BRITANNIA",
+    "ULTRACEMCO",
+    "GRASIM",
+    "LT"
+  ],
+  "2022-09-22": [
+    "SBIN",
+    "SUNPHARMA",
+    "BRITANNIA",
+    "TITAN",
+    "MARUTI"
+  ],
+  "2022-09-23": [
+    "SBIN",
+    "HINDUNILVR",
+    "ICICIBANK",
+    "KOTAKBANK",
+    "MARUTI"
+  ],
+  "2022-09-26": [
+    "BAJFINANCE",
+    "TCS",
+    "HEROMOTOCO",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2022-09-27": [
+    "APOLLOHOSP",
+    "SBILIFE",
+    "GRASIM",
+    "HINDUNILVR",
+    "LT"
+  ],
+  "2022-09-28": [
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "TATASTEEL",
+    "EICHERMOT",
+    "ICICIBANK"
+  ],
+  "2022-09-29": [
+    "BAJFINANCE",
+    "TCS",
+    "HEROMOTOCO",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2022-09-30": [
+    "ASIANPAINT",
+    "ULTRACEMCO",
+    "GRASIM",
+    "HINDUNILVR",
+    "ITC"
+  ],
+  "2022-10-03": [
+    "TATAMOTORS",
+    "TATASTEEL",
+    "BRITANNIA",
+    "CIPLA",
+    "HINDALCO"
+  ],
+  "2022-10-04": [
+    "SBILIFE",
+    "BAJFINANCE",
+    "EICHERMOT",
+    "KOTAKBANK",
+    "LT"
+  ],
+  "2022-10-05": [
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "BRITANNIA",
+    "WIPRO",
+    "HCLTECH"
+  ],
+  "2022-10-06": [
+    "BAJFINANCE",
+    "BRITANNIA",
+    "EICHERMOT",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2022-10-07": [
+    "ONGC",
+    "POWERGRID",
+    "LT",
+    "MARUTI",
+    "NTPC"
+  ],
+  "2022-10-10": [
+    "ONGC",
+    "BRITANNIA",
+    "ULTRACEMCO",
+    "EICHERMOT",
+    "INDUSINDBK"
+  ],
+  "2022-10-11": [
+    "RELIANCE",
+    "BAJFINANCE",
+    "HEROMOTOCO",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2022-10-12": [
+    "ONGC",
+    "SBILIFE",
+    "TATASTEEL",
+    "TCS",
+    "LTIM"
+  ],
+  "2022-10-13": [
+    "APOLLOHOSP",
+    "BRITANNIA",
+    "TECHM",
+    "ULTRACEMCO",
+    "LT"
+  ],
+  "2022-10-14": [
+    "SUNPHARMA",
+    "CIPLA",
+    "TITAN",
+    "EICHERMOT",
+    "GRASIM"
+  ],
+  "2022-10-17": [
+    "BPCL",
+    "TATASTEEL",
+    "WIPRO",
+    "ICICIBANK",
+    "MARUTI"
+  ],
+  "2022-10-18": [
+    "BAJFINANCE",
+    "TITAN",
+    "HEROMOTOCO",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2022-10-19": [
+    "APOLLOHOSP",
+    "SBILIFE",
+    "UPL",
+    "HINDUNILVR",
+    "LT"
+  ],
+  "2022-10-20": [
+    "APOLLOHOSP",
+    "ICICIBANK",
+    "INDUSINDBK",
+    "KOTAKBANK",
+    "LT"
+  ],
+  "2022-10-21": [
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "TATASTEEL",
+    "JSWSTEEL",
+    "LTIM"
+  ],
+  "2022-10-24": [
+    "ASIANPAINT",
+    "HDFCBANK",
+    "HINDUNILVR",
+    "ITC",
+    "LT"
+  ],
+  "2022-10-25": [
+    "TATAMOTORS",
+    "CIPLA",
+    "ULTRACEMCO",
+    "HINDALCO",
+    "HINDUNILVR"
+  ],
+  "2022-10-26": [
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "TECHM",
+    "KOTAKBANK",
+    "LT"
+  ],
+  "2022-10-27": [
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "UPL",
+    "HINDALCO",
+    "JSWSTEEL"
+  ],
+  "2022-10-28": [
+    "SBILIFE",
+    "BAJFINANCE",
+    "CIPLA",
+    "EICHERMOT",
+    "MARUTI"
+  ],
+  "2022-10-31": [
+    "POWERGRID",
+    "BAJFINANCE",
+    "HINDALCO",
+    "LT",
+    "MARUTI"
+  ],
+  "2022-11-01": [
+    "ONGC",
+    "ASIANPAINT",
+    "BPCL",
+    "BRITANNIA",
+    "EICHERMOT"
+  ],
+  "2022-11-02": [
+    "RELIANCE",
+    "BAJFINANCE",
+    "BRITANNIA",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2022-11-03": [
+    "ONGC",
+    "APOLLOHOSP",
+    "SBILIFE",
+    "BPCL",
+    "TCS"
+  ],
+  "2022-11-04": [
+    "APOLLOHOSP",
+    "BRITANNIA",
+    "ULTRACEMCO",
+    "HDFCLIFE",
+    "LT"
+  ],
+  "2022-11-07": [
+    "SUNPHARMA",
+    "TITAN",
+    "DIVISLAB",
+    "ULTRACEMCO",
+    "HDFCBANK"
+  ],
+  "2022-11-08": [
+    "BPCL",
+    "WIPRO",
+    "HDFCBANK",
+    "KOTAKBANK",
+    "MARUTI"
+  ],
+  "2022-11-09": [
+    "BAJFINANCE",
+    "TCS",
+    "EICHERMOT",
+    "KOTAKBANK",
+    "MARUTI"
+  ],
+  "2022-11-10": [
+    "ADANIPORTS",
+    "APOLLOHOSP",
+    "SBILIFE",
+    "BHARTIARTL",
+    "LT"
+  ],
+  "2022-11-11": [
+    "APOLLOHOSP",
+    "DIVISLAB",
+    "EICHERMOT",
+    "HINDUNILVR",
+    "LT"
+  ],
+  "2022-11-14": [
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "TECHM",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2022-11-15": [
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "HDFCBANK",
+    "ITC",
+    "MARUTI"
+  ],
+  "2022-11-16": [
+    "APOLLOHOSP",
+    "ASIANPAINT",
+    "TATACONSUM",
+    "ULTRACEMCO",
+    "HINDUNILVR"
+  ],
+  "2022-11-17": [
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "ULTRACEMCO",
+    "EICHERMOT",
+    "MARUTI"
+  ],
+  "2022-11-18": [
+    "ULTRACEMCO",
+    "GRASIM",
+    "HEROMOTOCO",
+    "ITC",
+    "JSWSTEEL"
+  ],
+  "2022-11-21": [
+    "BAJFINANCE",
+    "CIPLA",
+    "HINDUNILVR",
+    "KOTAKBANK",
+    "MARUTI"
+  ],
+  "2022-11-22": [
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "CIPLA",
+    "INDUSINDBK",
+    "MARUTI"
+  ],
+  "2022-11-23": [
+    "ASIANPAINT",
+    "BRITANNIA",
+    "ULTRACEMCO",
+    "EICHERMOT",
+    "INDUSINDBK"
+  ],
+  "2022-11-24": [
+    "BAJFINANCE",
+    "BRITANNIA",
+    "HINDUNILVR",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2022-11-25": [
+    "SBILIFE",
+    "BRITANNIA",
+    "CIPLA",
+    "HINDUNILVR",
+    "LT"
+  ],
+  "2022-11-28": [
+    "APOLLOHOSP",
+    "BRITANNIA",
+    "ULTRACEMCO",
+    "HINDUNILVR",
+    "LT"
+  ],
+  "2022-11-29": [
+    "BRITANNIA",
+    "CIPLA",
+    "TITAN",
+    "ULTRACEMCO",
+    "INFY"
+  ],
+  "2022-11-30": [
+    "BPCL",
+    "WIPRO",
+    "HINDUNILVR",
+    "ITC",
+    "MARUTI"
+  ],
+  "2022-12-01": [
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "EICHERMOT",
+    "KOTAKBANK",
+    "MARUTI"
+  ],
+  "2022-12-02": [
+    "RELIANCE",
+    "SBILIFE",
+    "CIPLA",
+    "ITC",
+    "LT"
+  ],
+  "2022-12-05": [
+    "APOLLOHOSP",
+    "DIVISLAB",
+    "ULTRACEMCO",
+    "EICHERMOT",
+    "LT"
+  ],
+  "2022-12-06": [
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "CIPLA",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2022-12-07": [
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "HINDUNILVR",
+    "INDUSINDBK",
+    "ITC"
+  ],
+  "2022-12-08": [
+    "APOLLOHOSP",
+    "ASIANPAINT",
+    "CIPLA",
+    "ULTRACEMCO",
+    "LTIM"
+  ],
+  "2022-12-09": [
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "DIVISLAB",
+    "EICHERMOT",
+    "KOTAKBANK"
+  ],
+  "2022-12-12": [
+    "BRITANNIA",
+    "TITAN",
+    "HCLTECH",
+    "ITC",
+    "MARUTI"
+  ],
+  "2022-12-13": [
+    "BAJFINANCE",
+    "CIPLA",
+    "ULTRACEMCO",
+    "KOTAKBANK",
+    "MARUTI"
+  ],
+  "2022-12-14": [
+    "BAJFINANCE",
+    "SUNPHARMA",
+    "CIPLA",
+    "INDUSINDBK",
+    "MARUTI"
+  ],
+  "2022-12-15": [
+    "AXISBANK",
+    "DIVISLAB",
+    "ULTRACEMCO",
+    "EICHERMOT",
+    "ITC"
+  ],
+  "2022-12-16": [
+    "BAJFINANCE",
+    "BRITANNIA",
+    "ULTRACEMCO",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2022-12-19": [
+    "ASIANPAINT",
+    "BRITANNIA",
+    "CIPLA",
+    "DRREDDY",
+    "HINDUNILVR"
+  ],
+  "2022-12-20": [
+    "APOLLOHOSP",
+    "BRITANNIA",
+    "ULTRACEMCO",
+    "HINDUNILVR",
+    "LT"
+  ],
+  "2022-12-21": [
+    "BHARTIARTL",
+    "TITAN",
+    "ULTRACEMCO",
+    "INFY",
+    "ITC"
+  ],
+  "2022-12-22": [
+    "WIPRO",
+    "HINDUNILVR",
+    "ITC",
+    "KOTAKBANK",
+    "MARUTI"
+  ],
+  "2022-12-23": [
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "EICHERMOT",
+    "KOTAKBANK",
+    "MARUTI"
+  ],
+  "2022-12-26": [
+    "POWERGRID",
+    "CIPLA",
+    "ULTRACEMCO",
+    "ITC",
+    "LT"
+  ],
+  "2022-12-27": [
+    "APOLLOHOSP",
+    "ULTRACEMCO",
+    "EICHERMOT",
+    "LT",
+    "LTIM"
+  ],
+  "2022-12-28": [
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "SUNPHARMA",
+    "KOTAKBANK",
+    "LTIM"
+  ],
+  "2022-12-29": [
+    "BRITANNIA",
+    "TCS",
+    "HDFCBANK",
+    "HINDUNILVR",
+    "KOTAKBANK"
+  ],
+  "2022-12-30": [
+    "APOLLOHOSP",
+    "ASIANPAINT",
+    "TATAMOTORS",
+    "ULTRACEMCO",
+    "MARUTI"
+  ],
+  "2023-01-02": [
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "COALINDIA",
+    "EICHERMOT",
+    "KOTAKBANK"
+  ],
+  "2023-01-03": [
+    "UPL",
+    "WIPRO",
+    "HCLTECH",
+    "INFY",
+    "ITC"
+  ],
+  "2023-01-04": [
+    "SBILIFE",
+    "BAJFINANCE",
+    "ULTRACEMCO",
+    "KOTAKBANK",
+    "MARUTI"
+  ],
+  "2023-01-05": [
+    "POWERGRID",
+    "SUNPHARMA",
+    "CIPLA",
+    "INDUSINDBK",
+    "MARUTI"
+  ],
+  "2023-01-06": [
+    "RELIANCE",
+    "ULTRACEMCO",
+    "EICHERMOT",
+    "HDFCBANK",
+    "INFY"
+  ],
+  "2023-01-09": [
+    "BAJFINANCE",
+    "ULTRACEMCO",
+    "GRASIM",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2023-01-10": [
+    "ASIANPAINT",
+    "BRITANNIA",
+    "CIPLA",
+    "HDFCBANK",
+    "LT"
+  ],
+  "2023-01-11": [
+    "APOLLOHOSP",
+    "BRITANNIA",
+    "COALINDIA",
+    "DIVISLAB",
+    "HINDUNILVR"
+  ],
+  "2023-01-12": [
+    "BHARTIARTL",
+    "TITAN",
+    "DIVISLAB",
+    "ULTRACEMCO",
+    "INFY"
+  ],
+  "2023-01-13": [
+    "WIPRO",
+    "HCLTECH",
+    "HINDUNILVR",
+    "ITC",
+    "MARUTI"
+  ],
+  "2023-01-16": [
+    "BAJAJFINSV",
+    "TCS",
+    "EICHERMOT",
+    "KOTAKBANK",
+    "MARUTI"
+  ],
+  "2023-01-17": [
+    "ADANIPORTS",
+    "APOLLOHOSP",
+    "UPL",
+    "HDFCBANK",
+    "LT"
+  ],
+  "2023-01-18": [
+    "APOLLOHOSP",
+    "ULTRACEMCO",
+    "EICHERMOT",
+    "LT",
+    "LTIM"
+  ],
+  "2023-01-19": [
+    "BAJFINANCE",
+    "SUNPHARMA",
+    "TECHM",
+    "INFY",
+    "LTIM"
+  ],
+  "2023-01-20": [
+    "TCS",
+    "HDFCBANK",
+    "HDFCLIFE",
+    "INFY",
+    "KOTAKBANK"
+  ],
+  "2023-01-23": [
+    "APOLLOHOSP",
+    "BAJAJFINSV",
+    "ULTRACEMCO",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2023-01-24": [
+    "SBILIFE",
+    "BAJFINANCE",
+    "ULTRACEMCO",
+    "EICHERMOT",
+    "GRASIM"
+  ],
+  "2023-01-25": [
+    "ONGC",
+    "BPCL",
+    "WIPRO",
+    "HCLTECH",
+    "ITC"
+  ],
+  "2023-01-26": [
+    "BAJFINANCE",
+    "TCS",
+    "ULTRACEMCO",
+    "KOTAKBANK",
+    "MARUTI"
+  ],
+  "2023-01-27": [
+    "POWERGRID",
+    "CIPLA",
+    "HINDUNILVR",
+    "INDUSINDBK",
+    "MARUTI"
+  ],
+  "2023-01-30": [
+    "DIVISLAB",
+    "EICHERMOT",
+    "HDFCBANK",
+    "INFY",
+    "LT"
+  ],
+  "2023-01-31": [
+    "BAJFINANCE",
+    "CIPLA",
+    "ULTRACEMCO",
+    "GRASIM",
+    "HINDUNILVR"
+  ],
+  "2023-02-01": [
+    "BAJFINANCE",
+    "BRITANNIA",
+    "DIVISLAB",
+    "HDFCBANK",
+    "HINDUNILVR"
+  ],
+  "2023-02-02": [
+    "APOLLOHOSP",
+    "BRITANNIA",
+    "COALINDIA",
+    "DIVISLAB",
+    "HINDUNILVR"
+  ],
+  "2023-02-03": [
+    "BHARTIARTL",
+    "TECHM",
+    "TITAN",
+    "ULTRACEMCO",
+    "INFY"
+  ],
+  "2023-02-06": [
+    "ONGC",
+    "TATACONSUM",
+    "TECHM",
+    "WIPRO",
+    "ITC"
+  ],
+  "2023-02-07": [
+    "ASIANPAINT",
+    "BAJAJFINSV",
+    "BRITANNIA",
+    "EICHERMOT",
+    "MARUTI"
+  ],
+  "2023-02-08": [
+    "POWERGRID",
+    "APOLLOHOSP",
+    "BAJAJFINSV",
+    "HDFCBANK",
+    "LT"
+  ],
+  "2023-02-09": [
+    "TATACONSUM",
+    "DIVISLAB",
+    "EICHERMOT",
+    "HEROMOTOCO",
+    "LT"
+  ],
+  "2023-02-10": [
+    "ONGC",
+    "SUNPHARMA",
+    "DIVISLAB",
+    "INDUSINDBK",
+    "LTIM"
+  ],
+  "2023-02-13": [
+    "APOLLOHOSP",
+    "TCS",
+    "HDFCBANK",
+    "KOTAKBANK",
+    "LTIM"
+  ],
+  "2023-02-14": [
+    "APOLLOHOSP",
+    "BAJAJFINSV",
+    "TATASTEEL",
+    "HDFCBANK",
+    "LTIM"
+  ],
+  "2023-02-15": [
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "BRITANNIA",
+    "ULTRACEMCO",
+    "EICHERMOT"
+  ],
+  "2023-02-16": [
+    "ONGC",
+    "BPCL",
+    "HINDALCO",
+    "ITC",
+    "NTPC"
+  ],
+  "2023-02-17": [
+    "TCS",
+    "ULTRACEMCO",
+    "GRASIM",
+    "KOTAKBANK",
+    "MARUTI"
+  ],
+  "2023-02-20": [
+    "SBILIFE",
+    "TATASTEEL",
+    "HINDUNILVR",
+    "INDUSINDBK",
+    "MARUTI"
+  ],
+  "2023-02-21": [
+    "DIVISLAB",
+    "EICHERMOT",
+    "HDFCBANK",
+    "LT",
+    "LTIM"
+  ],
+  "2023-02-22": [
+    "ADANIPORTS",
+    "BPCL",
+    "ULTRACEMCO",
+    "GRASIM",
+    "LT"
+  ],
+  "2023-02-23": [
+    "BAJFINANCE",
+    "BRITANNIA",
+    "TCS",
+    "HDFCBANK",
+    "HINDUNILVR"
+  ],
+  "2023-02-24": [
+    "BAJFINANCE",
+    "TATASTEEL",
+    "BRITANNIA",
+    "DIVISLAB",
+    "HINDUNILVR"
+  ],
+  "2023-02-27": [
+    "BHARTIARTL",
+    "ULTRACEMCO",
+    "EICHERMOT",
+    "INFY",
+    "LT"
+  ],
+  "2023-02-28": [
+    "TATACONSUM",
+    "TATASTEEL",
+    "DIVISLAB",
+    "GRASIM",
+    "ITC"
+  ],
+  "2023-03-01": [
+    "BAJAJFINSV",
+    "TITAN",
+    "EICHERMOT",
+    "KOTAKBANK",
+    "MARUTI"
+  ],
+  "2023-03-02": [
+    "APOLLOHOSP",
+    "TATASTEEL",
+    "HDFCBANK",
+    "LT",
+    "MARUTI"
+  ],
+  "2023-03-03": [
+    "SUNPHARMA",
+    "DIVISLAB",
+    "EICHERMOT",
+    "LT",
+    "MARUTI"
+  ],
+  "2023-03-06": [
+    "SUNPHARMA",
+    "BPCL",
+    "TATASTEEL",
+    "DIVISLAB",
+    "LTIM"
+  ],
+  "2023-03-07": [
+    "APOLLOHOSP",
+    "TCS",
+    "EICHERMOT",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2023-03-08": [
+    "BAJAJFINSV",
+    "SUNPHARMA",
+    "TATASTEEL",
+    "HINDALCO",
+    "LTIM"
+  ],
+  "2023-03-09": [
+    "BAJFINANCE",
+    "BRITANNIA",
+    "ULTRACEMCO",
+    "EICHERMOT",
+    "LTIM"
+  ],
+  "2023-03-10": [
+    "BPCL",
+    "ULTRACEMCO",
+    "WIPRO",
+    "HCLTECH",
+    "HINDALCO"
+  ],
+  "2023-03-13": [
+    "SUNPHARMA",
+    "ULTRACEMCO",
+    "GRASIM",
+    "KOTAKBANK",
+    "MARUTI"
+  ],
+  "2023-03-14": [
+    "POWERGRID",
+    "ASIANPAINT",
+    "BAJFINANCE",
+    "TATASTEEL",
+    "MARUTI"
+  ],
+  "2023-03-15": [
+    "TCS",
+    "EICHERMOT",
+    "HDFCBANK",
+    "LT",
+    "LTIM"
+  ],
+  "2023-03-16": [
+    "SUNPHARMA",
+    "BPCL",
+    "TATASTEEL",
+    "CIPLA",
+    "ULTRACEMCO"
+  ],
+  "2023-03-17": [
+    "BRITANNIA",
+    "CIPLA",
+    "HDFCBANK",
+    "HINDUNILVR",
+    "JSWSTEEL"
+  ],
+  "2023-03-20": [
+    "BAJFINANCE",
+    "BRITANNIA",
+    "HINDUNILVR",
+    "LT",
+    "LTIM"
+  ],
+  "2023-03-21": [
+    "BRITANNIA",
+    "TCS",
+    "ULTRACEMCO",
+    "HINDALCO",
+    "INFY"
+  ],
+  "2023-03-22": [
+    "TATACONSUM",
+    "TATASTEEL",
+    "CIPLA",
+    "HINDALCO",
+    "ITC"
+  ],
+  "2023-03-23": [
+    "BRITANNIA",
+    "TCS",
+    "EICHERMOT",
+    "WIPRO",
+    "KOTAKBANK"
+  ],
+  "2023-03-24": [
+    "APOLLOHOSP",
+    "HDFCBANK",
+    "HEROMOTOCO",
+    "LT",
+    "MARUTI"
+  ],
+  "2023-03-27": [
+    "APOLLOHOSP",
+    "SUNPHARMA",
+    "EICHERMOT",
+    "HEROMOTOCO",
+    "M&M"
+  ],
+  "2023-03-28": [
+    "SUNPHARMA",
+    "TCS",
+    "DIVISLAB",
+    "WIPRO",
+    "LTIM"
+  ],
+  "2023-03-29": [
+    "APOLLOHOSP",
+    "TCS",
+    "TITAN",
+    "EICHERMOT",
+    "LTIM"
+  ],
+  "2023-03-30": [
+    "APOLLOHOSP",
+    "BAJAJFINSV",
+    "TATASTEEL",
+    "WIPRO",
+    "LTIM"
+  ],
+  "2023-03-31": [
+    "BAJFINANCE",
+    "BRITANNIA",
+    "ULTRACEMCO",
+    "EICHERMOT",
+    "WIPRO"
+  ],
+  "2023-04-03": [
+    "COALINDIA",
+    "WIPRO",
+    "ITC",
+    "M&M",
+    "NTPC"
+  ],
+  "2023-04-04": [
+    "ADANIPORTS",
+    "TCS",
+    "ULTRACEMCO",
+    "GRASIM",
+    "KOTAKBANK"
+  ],
+  "2023-04-05": [
+    "BAJAJFINSV",
+    "TATASTEEL",
+    "UPL",
+    "INDUSINDBK",
+    "MARUTI"
+  ],
+  "2023-04-06": [
+    "TCS",
+    "HDFCBANK",
+    "HEROMOTOCO",
+    "INFY",
+    "LT"
+  ],
+  "2023-04-07": [
+    "BAJAJFINSV",
+    "DIVISLAB",
+    "ULTRACEMCO",
+    "LT",
+    "LTIM"
+  ],
+  "2023-04-10": [
+    "ASIANPAINT",
+    "TCS",
+    "TECHM",
+    "DIVISLAB",
+    "GRASIM"
+  ],
+  "2023-04-11": [
+    "BAJFINANCE",
+    "BRITANNIA",
+    "HINDUNILVR",
+    "LT",
+    "M&M"
+  ],
+  "2023-04-12": [
+    "RELIANCE",
+    "BRITANNIA",
+    "TCS",
+    "EICHERMOT",
+    "LT"
+  ],
+  "2023-04-13": [
+    "BAJFINANCE",
+    "TATACONSUM",
+    "DIVISLAB",
+    "GRASIM",
+    "HEROMOTOCO"
+  ],
+  "2023-04-14": [
+    "BAJAJFINSV",
+    "TCS",
+    "EICHERMOT",
+    "KOTAKBANK",
+    "LTIM"
+  ],
+  "2023-04-17": [
+    "APOLLOHOSP",
+    "HDFCBANK",
+    "HEROMOTOCO",
+    "LT",
+    "MARUTI"
+  ],
+  "2023-04-18": [
+    "EICHERMOT",
+    "WIPRO",
+    "HEROMOTOCO",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2023-04-19": [
+    "ONGC",
+    "DIVISLAB",
+    "WIPRO",
+    "ITC",
+    "NTPC"
+  ],
+  "2023-04-20": [
+    "APOLLOHOSP",
+    "TCS",
+    "EICHERMOT",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2023-04-21": [
+    "APOLLOHOSP",
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "WIPRO",
+    "LTIM"
+  ],
+  "2023-04-24": [
+    "BAJFINANCE",
+    "BRITANNIA",
+    "ULTRACEMCO",
+    "EICHERMOT",
+    "WIPRO"
+  ],
+  "2023-04-25": [
+    "ONGC",
+    "COALINDIA",
+    "WIPRO",
+    "ITC",
+    "NTPC"
+  ],
+  "2023-04-26": [
+    "ADANIPORTS",
+    "BAJFINANCE",
+    "ULTRACEMCO",
+    "GRASIM",
+    "KOTAKBANK"
+  ],
+  "2023-04-27": [
+    "POWERGRID",
+    "COALINDIA",
+    "UPL",
+    "MARUTI",
+    "NTPC"
+  ],
+  "2023-04-28": [
+    "TCS",
+    "HEROMOTOCO",
+    "INFY",
+    "LT",
+    "NTPC"
+  ],
+  "2023-05-01": [
+    "ADANIPORTS",
+    "POWERGRID",
+    "DIVISLAB",
+    "ULTRACEMCO",
+    "LT"
+  ],
+  "2023-05-02": [
+    "ASIANPAINT",
+    "BRITANNIA",
+    "TECHM",
+    "DIVISLAB",
+    "GRASIM"
+  ],
+  "2023-05-03": [
+    "TECHM",
+    "ULTRACEMCO",
+    "HINDUNILVR",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2023-05-04": [
+    "RELIANCE",
+    "SBILIFE",
+    "TECHM",
+    "EICHERMOT",
+    "UPL"
+  ],
+  "2023-05-05": [
+    "RELIANCE",
+    "TATACONSUM",
+    "TECHM",
+    "DIVISLAB",
+    "GRASIM"
+  ],
+  "2023-05-08": [
+    "BAJFINANCE",
+    "TCS",
+    "EICHERMOT",
+    "LTIM",
+    "NTPC"
+  ],
+  "2023-05-09": [
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "ULTRACEMCO",
+    "GRASIM",
+    "MARUTI"
+  ],
+  "2023-05-10": [
+    "APOLLOHOSP",
+    "EICHERMOT",
+    "HEROMOTOCO",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2023-05-11": [
+    "POWERGRID",
+    "BPCL",
+    "TECHM",
+    "LTIM",
+    "NTPC"
+  ],
+  "2023-05-12": [
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "TITAN",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2023-05-15": [
+    "APOLLOHOSP",
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "TATASTEEL",
+    "DIVISLAB"
+  ],
+  "2023-05-16": [
+    "BAJFINANCE",
+    "BRITANNIA",
+    "TITAN",
+    "ULTRACEMCO",
+    "EICHERMOT"
+  ],
+  "2023-05-17": [
+    "POWERGRID",
+    "BRITANNIA",
+    "DIVISLAB",
+    "ITC",
+    "NTPC"
+  ],
+  "2023-05-18": [
+    "ADANIPORTS",
+    "UPL",
+    "GRASIM",
+    "KOTAKBANK",
+    "MARUTI"
+  ],
+  "2023-05-19": [
+    "SBILIFE",
+    "BAJAJFINSV",
+    "BRITANNIA",
+    "UPL",
+    "MARUTI"
+  ],
+  "2023-05-22": [
+    "BAJFINANCE",
+    "TCS",
+    "HEROMOTOCO",
+    "INFY",
+    "LT"
+  ],
+  "2023-05-23": [
+    "POWERGRID",
+    "DIVISLAB",
+    "ULTRACEMCO",
+    "UPL",
+    "LT"
+  ],
+  "2023-05-24": [
+    "TCS",
+    "TECHM",
+    "GRASIM",
+    "HDFCBANK",
+    "JSWSTEEL"
+  ],
+  "2023-05-25": [
+    "ULTRACEMCO",
+    "HINDUNILVR",
+    "LT",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2023-05-26": [
+    "SBILIFE",
+    "TATACONSUM",
+    "TATASTEEL",
+    "TCS",
+    "HINDALCO"
+  ],
+  "2023-05-29": [
+    "RELIANCE",
+    "TATACONSUM",
+    "DIVISLAB",
+    "ULTRACEMCO",
+    "GRASIM"
+  ],
+  "2023-05-30": [
+    "TCS",
+    "DIVISLAB",
+    "EICHERMOT",
+    "INFY",
+    "LTIM"
+  ],
+  "2023-05-31": [
+    "APOLLOHOSP",
+    "GRASIM",
+    "HDFCBANK",
+    "LT",
+    "MARUTI"
+  ],
+  "2023-06-01": [
+    "SUNPHARMA",
+    "TCS",
+    "EICHERMOT",
+    "HEROMOTOCO",
+    "LTIM"
+  ],
+  "2023-06-02": [
+    "ONGC",
+    "BPCL",
+    "DIVISLAB",
+    "HDFCBANK",
+    "NTPC"
+  ],
+  "2023-06-05": [
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "TITAN",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2023-06-06": [
+    "APOLLOHOSP",
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "SUNPHARMA",
+    "TATASTEEL"
+  ],
+  "2023-06-07": [
+    "BRITANNIA",
+    "TITAN",
+    "ULTRACEMCO",
+    "EICHERMOT",
+    "MARUTI"
+  ],
+  "2023-06-08": [
+    "ONGC",
+    "DRREDDY",
+    "HDFCBANK",
+    "HDFCLIFE",
+    "JSWSTEEL"
+  ],
+  "2023-06-09": [
+    "APOLLOHOSP",
+    "ASIANPAINT",
+    "BAJFINANCE",
+    "BPCL",
+    "GRASIM"
+  ],
+  "2023-06-12": [
+    "SBILIFE",
+    "BAJAJFINSV",
+    "BRITANNIA",
+    "ULTRACEMCO",
+    "EICHERMOT"
+  ],
+  "2023-06-13": [
+    "BAJFINANCE",
+    "TCS",
+    "HEROMOTOCO",
+    "LT",
+    "LTIM"
+  ],
+  "2023-06-14": [
+    "SBILIFE",
+    "TATASTEEL",
+    "DIVISLAB",
+    "LT",
+    "LTIM"
+  ],
+  "2023-06-15": [
+    "APOLLOHOSP",
+    "BRITANNIA",
+    "TCS",
+    "TECHM",
+    "GRASIM"
+  ],
+  "2023-06-16": [
+    "COALINDIA",
+    "ULTRACEMCO",
+    "LT",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2023-06-19": [
+    "BRITANNIA",
+    "TATASTEEL",
+    "WIPRO",
+    "HINDALCO",
+    "ICICIBANK"
+  ],
+  "2023-06-20": [
+    "BAJFINANCE",
+    "ULTRACEMCO",
+    "EICHERMOT",
+    "HDFCLIFE",
+    "HEROMOTOCO"
+  ],
+  "2023-06-21": [
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "EICHERMOT",
+    "KOTAKBANK",
+    "LTIM"
+  ],
+  "2023-06-22": [
+    "ONGC",
+    "APOLLOHOSP",
+    "GRASIM",
+    "HEROMOTOCO",
+    "MARUTI"
+  ],
+  "2023-06-23": [
+    "ASIANPAINT",
+    "SUNPHARMA",
+    "TATASTEEL",
+    "HINDALCO",
+    "M&M"
+  ],
+  "2023-06-26": [
+    "ONGC",
+    "SBIN",
+    "TITAN",
+    "HDFCLIFE",
+    "LTIM"
+  ],
+  "2023-06-27": [
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "TITAN",
+    "LT",
+    "LTIM"
+  ],
+  "2023-06-28": [
+    "APOLLOHOSP",
+    "COALINDIA",
+    "DIVISLAB",
+    "WIPRO",
+    "HINDUNILVR"
+  ],
+  "2023-06-29": [
+    "APOLLOHOSP",
+    "BRITANNIA",
+    "TCS",
+    "ULTRACEMCO",
+    "EICHERMOT"
+  ],
+  "2023-06-30": [
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "COALINDIA",
+    "TITAN",
+    "ULTRACEMCO"
+  ],
+  "2023-07-03": [
+    "APOLLOHOSP",
+    "BPCL",
+    "GRASIM",
+    "HCLTECH",
+    "LTIM"
+  ],
+  "2023-07-04": [
+    "BPCL",
+    "BRITANNIA",
+    "COALINDIA",
+    "EICHERMOT",
+    "NTPC"
+  ],
+  "2023-07-05": [
+    "BAJFINANCE",
+    "TCS",
+    "ULTRACEMCO",
+    "INFY",
+    "MARUTI"
+  ],
+  "2023-07-06": [
+    "APOLLOHOSP",
+    "ASIANPAINT",
+    "TECHM",
+    "LT",
+    "LTIM"
+  ],
+  "2023-07-07": [
+    "TATACONSUM",
+    "BRITANNIA",
+    "TECHM",
+    "GRASIM",
+    "HINDUNILVR"
+  ],
+  "2023-07-10": [
+    "ULTRACEMCO",
+    "WIPRO",
+    "LT",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2023-07-11": [
+    "SBILIFE",
+    "TATACONSUM",
+    "BRITANNIA",
+    "TCS",
+    "WIPRO"
+  ],
+  "2023-07-12": [
+    "BAJFINANCE",
+    "ULTRACEMCO",
+    "EICHERMOT",
+    "HCLTECH",
+    "HEROMOTOCO"
+  ],
+  "2023-07-13": [
+    "BAJFINANCE",
+    "HCLTECH",
+    "INFY",
+    "KOTAKBANK",
+    "LTIM"
+  ],
+  "2023-07-14": [
+    "APOLLOHOSP",
+    "DIVISLAB",
+    "WIPRO",
+    "HEROMOTOCO",
+    "MARUTI"
+  ],
+  "2023-07-17": [
+    "APOLLOHOSP",
+    "BRITANNIA",
+    "WIPRO",
+    "INFY",
+    "M&M"
+  ],
+  "2023-07-18": [
+    "ONGC",
+    "SBILIFE",
+    "SBIN",
+    "TITAN",
+    "HDFCLIFE"
+  ],
+  "2023-07-19": [
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "SUNPHARMA",
+    "TITAN",
+    "LT"
+  ],
+  "2023-07-20": [
+    "APOLLOHOSP",
+    "BAJAJFINSV",
+    "COALINDIA",
+    "DIVISLAB",
+    "WIPRO"
+  ],
+  "2023-07-21": [
+    "APOLLOHOSP",
+    "BRITANNIA",
+    "TCS",
+    "ULTRACEMCO",
+    "LTIM"
+  ],
+  "2023-07-24": [
+    "APOLLOHOSP",
+    "TATACONSUM",
+    "TITAN",
+    "ULTRACEMCO",
+    "WIPRO"
+  ],
+  "2023-07-25": [
+    "ADANIPORTS",
+    "APOLLOHOSP",
+    "SBILIFE",
+    "UPL",
+    "EICHERMOT"
+  ],
+  "2023-07-26": [
+    "BPCL",
+    "BRITANNIA",
+    "COALINDIA",
+    "ULTRACEMCO",
+    "NTPC"
+  ],
+  "2023-07-27": [
+    "BAJFINANCE",
+    "ULTRACEMCO",
+    "INFY",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2023-07-28": [
+    "APOLLOHOSP",
+    "AXISBANK",
+    "TECHM",
+    "HDFCLIFE",
+    "HEROMOTOCO"
+  ],
+  "2023-07-31": [
+    "TATACONSUM",
+    "BRITANNIA",
+    "GRASIM",
+    "HDFCLIFE",
+    "HINDUNILVR"
+  ],
+  "2023-08-01": [
+    "ADANIPORTS",
+    "ULTRACEMCO",
+    "HINDUNILVR",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2023-08-02": [
+    "APOLLOHOSP",
+    "ASIANPAINT",
+    "SBILIFE",
+    "BRITANNIA",
+    "WIPRO"
+  ],
+  "2023-08-03": [
+    "BAJFINANCE",
+    "ULTRACEMCO",
+    "UPL",
+    "HCLTECH",
+    "HEROMOTOCO"
+  ],
+  "2023-08-04": [
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "DIVISLAB",
+    "HCLTECH",
+    "LTIM"
+  ],
+  "2023-08-07": [
+    "APOLLOHOSP",
+    "BAJAJFINSV",
+    "DIVISLAB",
+    "MARUTI",
+    "NTPC"
+  ],
+  "2023-08-08": [
+    "APOLLOHOSP",
+    "ASIANPAINT",
+    "BRITANNIA",
+    "ULTRACEMCO",
+    "UPL"
+  ],
+  "2023-08-09": [
+    "BPCL",
+    "TITAN",
+    "ULTRACEMCO",
+    "HEROMOTOCO",
+    "MARUTI"
+  ],
+  "2023-08-10": [
+    "ADANIPORTS",
+    "SUNPHARMA",
+    "BPCL",
+    "TITAN",
+    "LTIM"
+  ],
+  "2023-08-11": [
+    "APOLLOHOSP",
+    "AXISBANK",
+    "SBILIFE",
+    "BAJAJFINSV",
+    "DIVISLAB"
+  ],
+  "2023-08-14": [
+    "BHARTIARTL",
+    "TCS",
+    "ULTRACEMCO",
+    "UPL",
+    "LTIM"
+  ],
+  "2023-08-15": [
+    "APOLLOHOSP",
+    "BRITANNIA",
+    "TITAN",
+    "JSWSTEEL",
+    "LT"
+  ],
+  "2023-08-16": [
+    "APOLLOHOSP",
+    "BPCL",
+    "EICHERMOT",
+    "JSWSTEEL",
+    "LTIM"
+  ],
+  "2023-08-17": [
+    "POWERGRID",
+    "SBILIFE",
+    "BPCL",
+    "BRITANNIA",
+    "HDFCLIFE"
+  ],
+  "2023-08-18": [
+    "BAJFINANCE",
+    "TITAN",
+    "ULTRACEMCO",
+    "INFY",
+    "LTIM"
+  ],
+  "2023-08-21": [
+    "APOLLOHOSP",
+    "ASIANPAINT",
+    "TECHM",
+    "HEROMOTOCO",
+    "LT"
+  ],
+  "2023-08-22": [
+    "BPCL",
+    "BRITANNIA",
+    "TECHM",
+    "EICHERMOT",
+    "GRASIM"
+  ],
+  "2023-08-23": [
+    "TECHM",
+    "ULTRACEMCO",
+    "INFY",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2023-08-24": [
+    "APOLLOHOSP",
+    "ASIANPAINT",
+    "SBILIFE",
+    "BAJFINANCE",
+    "TATACONSUM"
+  ],
+  "2023-08-25": [
+    "BAJFINANCE",
+    "ULTRACEMCO",
+    "GRASIM",
+    "HCLTECH",
+    "LTIM"
+  ],
+  "2023-08-28": [
+    "APOLLOHOSP",
+    "ASIANPAINT",
+    "BAJFINANCE",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2023-08-29": [
+    "APOLLOHOSP",
+    "BPCL",
+    "TATAMOTORS",
+    "ITC",
+    "MARUTI"
+  ],
+  "2023-08-30": [
+    "ASIANPAINT",
+    "BPCL",
+    "BRITANNIA",
+    "DRREDDY",
+    "ULTRACEMCO"
+  ],
+  "2023-08-31": [
+    "ASIANPAINT",
+    "BAJAJFINSV",
+    "TITAN",
+    "HEROMOTOCO",
+    "MARUTI"
+  ],
+  "2023-09-01": [
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "SUNPHARMA",
+    "BPCL",
+    "DRREDDY"
+  ],
+  "2023-09-04": [
+    "APOLLOHOSP",
+    "AXISBANK",
+    "SUNPHARMA",
+    "HDFCLIFE",
+    "LT"
+  ],
+  "2023-09-05": [
+    "TCS",
+    "ULTRACEMCO",
+    "HDFCBANK",
+    "INFY",
+    "LTIM"
+  ],
+  "2023-09-06": [
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "BHARTIARTL",
+    "LT",
+    "LTIM"
+  ],
+  "2023-09-07": [
+    "APOLLOHOSP",
+    "SUNPHARMA",
+    "CIPLA",
+    "JSWSTEEL",
+    "LTIM"
+  ],
+  "2023-09-08": [
+    "BPCL",
+    "DIVISLAB",
+    "DRREDDY",
+    "ULTRACEMCO",
+    "HEROMOTOCO"
+  ],
+  "2023-09-11": [
+    "POWERGRID",
+    "BAJFINANCE",
+    "DIVISLAB",
+    "HINDALCO",
+    "MARUTI"
+  ],
+  "2023-09-12": [
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "SUNPHARMA",
+    "TECHM",
+    "ULTRACEMCO"
+  ],
+  "2023-09-13": [
+    "BPCL",
+    "BRITANNIA",
+    "EICHERMOT",
+    "GRASIM",
+    "HINDUNILVR"
+  ],
+  "2023-09-14": [
+    "BPCL",
+    "COALINDIA",
+    "DIVISLAB",
+    "TECHM",
+    "MARUTI"
+  ],
+  "2023-09-15": [
+    "APOLLOHOSP",
+    "ASIANPAINT",
+    "BAJFINANCE",
+    "HINDALCO",
+    "JSWSTEEL"
+  ],
+  "2023-09-18": [
+    "BAJFINANCE",
+    "TCS",
+    "DIVISLAB",
+    "ULTRACEMCO",
+    "LTIM"
+  ],
+  "2023-09-19": [
+    "APOLLOHOSP",
+    "ASIANPAINT",
+    "DRREDDY",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2023-09-20": [
+    "POWERGRID",
+    "APOLLOHOSP",
+    "DIVISLAB",
+    "DRREDDY",
+    "MARUTI"
+  ],
+  "2023-09-21": [
+    "APOLLOHOSP",
+    "RELIANCE",
+    "BRITANNIA",
+    "DRREDDY",
+    "ULTRACEMCO"
+  ],
+  "2023-09-22": [
+    "RELIANCE",
+    "TITAN",
+    "EICHERMOT",
+    "HEROMOTOCO",
+    "MARUTI"
+  ],
+  "2023-09-25": [
+    "APOLLOHOSP",
+    "RELIANCE",
+    "BAJFINANCE",
+    "SUNPHARMA",
+    "DRREDDY"
+  ],
+  "2023-09-26": [
+    "ONGC",
+    "APOLLOHOSP",
+    "SBILIFE",
+    "DRREDDY",
+    "ULTRACEMCO"
+  ],
+  "2023-09-27": [
+    "DIVISLAB",
+    "DRREDDY",
+    "ULTRACEMCO",
+    "HCLTECH",
+    "LTIM"
+  ],
+  "2023-09-28": [
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "HDFCBANK",
+    "LT",
+    "LTIM"
+  ],
+  "2023-09-29": [
+    "APOLLOHOSP",
+    "SUNPHARMA",
+    "CIPLA",
+    "DIVISLAB",
+    "DRREDDY"
+  ],
+  "2023-10-02": [
+    "ONGC",
+    "SUNPHARMA",
+    "DIVISLAB",
+    "DRREDDY",
+    "ULTRACEMCO"
+  ],
+  "2023-10-03": [
+    "BAJFINANCE",
+    "DIVISLAB",
+    "ULTRACEMCO",
+    "HINDALCO",
+    "LTIM"
+  ],
+  "2023-10-04": [
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "SUNPHARMA",
+    "TECHM",
+    "MARUTI"
+  ],
+  "2023-10-05": [
+    "AXISBANK",
+    "DRREDDY",
+    "EICHERMOT",
+    "GRASIM",
+    "HINDUNILVR"
+  ],
+  "2023-10-06": [
+    "COALINDIA",
+    "DIVISLAB",
+    "TITAN",
+    "ULTRACEMCO",
+    "MARUTI"
+  ],
+  "2023-10-09": [
+    "APOLLOHOSP",
+    "ASIANPAINT",
+    "AXISBANK",
+    "BAJFINANCE",
+    "WIPRO"
+  ],
+  "2023-10-10": [
+    "ADANIPORTS",
+    "BAJFINANCE",
+    "TCS",
+    "HCLTECH",
+    "LTIM"
+  ],
+  "2023-10-11": [
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "DRREDDY",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2023-10-12": [
+    "ADANIPORTS",
+    "APOLLOHOSP",
+    "DIVISLAB",
+    "WIPRO",
+    "MARUTI"
+  ],
+  "2023-10-13": [
+    "BRITANNIA",
+    "TECHM",
+    "ULTRACEMCO",
+    "WIPRO",
+    "LT"
+  ],
+  "2023-10-16": [
+    "TITAN",
+    "EICHERMOT",
+    "HEROMOTOCO",
+    "INFY",
+    "MARUTI"
+  ],
+  "2023-10-17": [
+    "ADANIPORTS",
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "SUNPHARMA",
+    "DRREDDY"
+  ],
+  "2023-10-18": [
+    "ONGC",
+    "SBILIFE",
+    "BAJAJFINSV",
+    "DIVISLAB",
+    "LT"
+  ],
+  "2023-10-19": [
+    "TECHM",
+    "DIVISLAB",
+    "WIPRO",
+    "INFY",
+    "LTIM"
+  ],
+  "2023-10-20": [
+    "BAJFINANCE",
+    "TCS",
+    "ULTRACEMCO",
+    "LT",
+    "LTIM"
+  ],
+  "2023-10-23": [
+    "APOLLOHOSP",
+    "ULTRACEMCO",
+    "EICHERMOT",
+    "JSWSTEEL",
+    "LTIM"
+  ],
+  "2023-10-24": [
+    "COALINDIA",
+    "DIVISLAB",
+    "DRREDDY",
+    "ULTRACEMCO",
+    "WIPRO"
+  ],
+  "2023-10-25": [
+    "DIVISLAB",
+    "UPL",
+    "HINDALCO",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2023-10-26": [
+    "APOLLOHOSP",
+    "AXISBANK",
+    "TATASTEEL",
+    "TECHM",
+    "KOTAKBANK"
+  ],
+  "2023-10-27": [
+    "ADANIPORTS",
+    "EICHERMOT",
+    "GRASIM",
+    "HEROMOTOCO",
+    "M&M"
+  ],
+  "2023-10-30": [
+    "APOLLOHOSP",
+    "ASIANPAINT",
+    "DIVISLAB",
+    "LT",
+    "MARUTI"
+  ],
+  "2023-10-31": [
+    "APOLLOHOSP",
+    "ASIANPAINT",
+    "AXISBANK",
+    "BAJFINANCE",
+    "LT"
+  ],
+  "2023-11-01": [
+    "BAJFINANCE",
+    "TCS",
+    "DIVISLAB",
+    "UPL",
+    "HCLTECH"
+  ],
+  "2023-11-02": [
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "TITAN",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2023-11-03": [
+    "ADANIPORTS",
+    "APOLLOHOSP",
+    "BAJAJFINSV",
+    "DIVISLAB",
+    "MARUTI"
+  ],
+  "2023-11-06": [
+    "APOLLOHOSP",
+    "AXISBANK",
+    "BRITANNIA",
+    "TECHM",
+    "LT"
+  ],
+  "2023-11-07": [
+    "TECHM",
+    "TITAN",
+    "EICHERMOT",
+    "HEROMOTOCO",
+    "MARUTI"
+  ],
+  "2023-11-08": [
+    "APOLLOHOSP",
+    "SUNPHARMA",
+    "DRREDDY",
+    "HCLTECH",
+    "ICICIBANK"
+  ],
+  "2023-11-09": [
+    "ONGC",
+    "BAJAJFINSV",
+    "DIVISLAB",
+    "ULTRACEMCO",
+    "LT"
+  ],
+  "2023-11-10": [
+    "TECHM",
+    "DIVISLAB",
+    "HCLTECH",
+    "INFY",
+    "LTIM"
+  ],
+  "2023-11-13": [
+    "ADANIPORTS",
+    "APOLLOHOSP",
+    "ULTRACEMCO",
+    "INFY",
+    "LTIM"
+  ],
+  "2023-11-14": [
+    "APOLLOHOSP",
+    "TECHM",
+    "DIVISLAB",
+    "ULTRACEMCO",
+    "UPL"
+  ],
+  "2023-11-15": [
+    "COALINDIA",
+    "DRREDDY",
+    "UPL",
+    "WIPRO",
+    "ULTRACEMCO"
+  ],
+  "2023-11-16": [
+    "TATACONSUM",
+    "DIVISLAB",
+    "UPL",
+    "HEROMOTOCO",
+    "LTIM"
+  ],
+  "2023-11-17": [
+    "APOLLOHOSP",
+    "BHARTIARTL",
+    "TECHM",
+    "ITC",
+    "KOTAKBANK"
+  ],
+  "2023-11-20": [
+    "AXISBANK",
+    "EICHERMOT",
+    "GRASIM",
+    "M&M",
+    "MARUTI"
+  ],
+  "2023-11-21": [
+    "POWERGRID",
+    "APOLLOHOSP",
+    "COALINDIA",
+    "DIVISLAB",
+    "MARUTI"
+  ],
+  "2023-11-22": [
+    "ASIANPAINT",
+    "BAJFINANCE",
+    "DIVISLAB",
+    "TITAN",
+    "LT"
+  ],
+  "2023-11-23": [
+    "TATACONSUM",
+    "TCS",
+    "DIVISLAB",
+    "HDFCBANK",
+    "KOTAKBANK"
+  ],
+  "2023-11-24": [
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "TCS",
+    "TITAN",
+    "MARUTI"
+  ],
+  "2023-11-27": [
+    "APOLLOHOSP",
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "DIVISLAB",
+    "MARUTI"
+  ],
+  "2023-11-28": [
+    "APOLLOHOSP",
+    "BRITANNIA",
+    "TECHM",
+    "COALINDIA",
+    "LT"
+  ],
+  "2023-11-29": [
+    "ADANIPORTS",
+    "EICHERMOT",
+    "HEROMOTOCO",
+    "M&M",
+    "MARUTI"
+  ],
+  "2023-11-30": [
+    "APOLLOHOSP",
+    "SUNPHARMA",
+    "BPCL",
+    "DRREDDY",
+    "HCLTECH"
+  ],
+  "2023-12-01": [
+    "BAJFINANCE",
+    "DIVISLAB",
+    "ULTRACEMCO",
+    "LT",
+    "LTIM"
+  ],
+  "2023-12-04": [
+    "BRITANNIA",
+    "DIVISLAB",
+    "HDFCLIFE",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2023-12-05": [
+    "ADANIPORTS",
+    "BHARTIARTL",
+    "BPCL",
+    "ULTRACEMCO",
+    "LT"
+  ],
+  "2023-12-06": [
+    "APOLLOHOSP",
+    "SBILIFE",
+    "DIVISLAB",
+    "DRREDDY",
+    "INDUSINDBK"
+  ],
+  "2023-12-07": [
+    "BAJFINANCE",
+    "COALINDIA",
+    "DRREDDY",
+    "ULTRACEMCO",
+    "HEROMOTOCO"
+  ],
+  "2023-12-08": [
+    "BRITANNIA",
+    "HEROMOTOCO",
+    "INDUSINDBK",
+    "KOTAKBANK",
+    "LTIM"
+  ],
+  "2023-12-11": [
+    "SUNPHARMA",
+    "BHARTIARTL",
+    "TECHM",
+    "HINDUNILVR",
+    "INFY"
+  ],
+  "2023-12-12": [
+    "EICHERMOT",
+    "GRASIM",
+    "HEROMOTOCO",
+    "M&M",
+    "MARUTI"
+  ],
+  "2023-12-13": [
+    "APOLLOHOSP",
+    "ASIANPAINT",
+    "TATACONSUM",
+    "COALINDIA",
+    "DIVISLAB"
+  ],
+  "2023-12-14": [
+    "ASIANPAINT",
+    "BAJFINANCE",
+    "DIVISLAB",
+    "LT",
+    "LTIM"
+  ],
+  "2023-12-15": [
+    "BRITANNIA",
+    "TCS",
+    "DIVISLAB",
+    "KOTAKBANK",
+    "MARUTI"
+  ],
+  "2023-12-18": [
+    "APOLLOHOSP",
+    "SUNPHARMA",
+    "TCS",
+    "HEROMOTOCO",
+    "MARUTI"
+  ],
+  "2023-12-19": [
+    "ONGC",
+    "SBILIFE",
+    "BAJFINANCE",
+    "TATAMOTORS",
+    "MARUTI"
+  ],
+  "2023-12-20": [
+    "APOLLOHOSP",
+    "BPCL",
+    "BRITANNIA",
+    "TECHM",
+    "LT"
+  ],
+  "2023-12-21": [
+    "ADANIPORTS",
+    "EICHERMOT",
+    "HEROMOTOCO",
+    "INFY",
+    "MARUTI"
+  ],
+  "2023-12-22": [
+    "POWERGRID",
+    "APOLLOHOSP",
+    "BPCL",
+    "HCLTECH",
+    "HINDUNILVR"
+  ],
+  "2023-12-25": [
+    "ONGC",
+    "TATACONSUM",
+    "BPCL",
+    "HDFCLIFE",
+    "LT"
+  ],
+  "2023-12-26": [
+    "BRITANNIA",
+    "DIVISLAB",
+    "HCLTECH",
+    "HEROMOTOCO",
+    "MARUTI"
+  ],
+  "2023-12-27": [
+    "ADANIPORTS",
+    "ULTRACEMCO",
+    "KOTAKBANK",
+    "LT",
+    "LTIM"
+  ],
+  "2023-12-28": [
+    "POWERGRID",
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "DRREDDY",
+    "INDUSINDBK"
+  ],
+  "2023-12-29": [
+    "SUNPHARMA",
+    "BPCL",
+    "DRREDDY",
+    "ULTRACEMCO",
+    "HEROMOTOCO"
+  ],
+  "2024-01-01": [
+    "BRITANNIA",
+    "GRASIM",
+    "HEROMOTOCO",
+    "INDUSINDBK",
+    "LTIM"
+  ],
+  "2024-01-02": [
+    "SUNPHARMA",
+    "BHARTIARTL",
+    "TCS",
+    "TECHM",
+    "EICHERMOT"
+  ],
+  "2024-01-03": [
+    "AXISBANK",
+    "EICHERMOT",
+    "HEROMOTOCO",
+    "M&M",
+    "MARUTI"
+  ],
+  "2024-01-04": [
+    "APOLLOHOSP",
+    "ASIANPAINT",
+    "BHARTIARTL",
+    "DIVISLAB",
+    "ULTRACEMCO"
+  ],
+  "2024-01-05": [
+    "BAJFINANCE",
+    "BPCL",
+    "DIVISLAB",
+    "TITAN",
+    "LT"
+  ],
+  "2024-01-08": [
+    "BPCL",
+    "TCS",
+    "DIVISLAB",
+    "JSWSTEEL",
+    "MARUTI"
+  ],
+  "2024-01-09": [
+    "APOLLOHOSP",
+    "SUNPHARMA",
+    "TCS",
+    "DRREDDY",
+    "MARUTI"
+  ],
+  "2024-01-10": [
+    "BAJFINANCE",
+    "TATAMOTORS",
+    "DIVISLAB",
+    "TITAN",
+    "MARUTI"
+  ],
+  "2024-01-11": [
+    "APOLLOHOSP",
+    "BRITANNIA",
+    "TECHM",
+    "JSWSTEEL",
+    "MARUTI"
+  ],
+  "2024-01-12": [
+    "ADANIPORTS",
+    "BRITANNIA",
+    "EICHERMOT",
+    "HEROMOTOCO",
+    "MARUTI"
+  ],
+  "2024-01-15": [
+    "APOLLOHOSP",
+    "SBILIFE",
+    "DIVISLAB",
+    "UPL",
+    "HINDUNILVR"
+  ],
+  "2024-01-16": [
+    "RELIANCE",
+    "BAJAJFINSV",
+    "TATACONSUM",
+    "BRITANNIA",
+    "HDFCLIFE"
+  ],
+  "2024-01-17": [
+    "BRITANNIA",
+    "DIVISLAB",
+    "HDFCLIFE",
+    "HEROMOTOCO",
+    "MARUTI"
+  ],
+  "2024-01-18": [
+    "ADANIPORTS",
+    "BAJFINANCE",
+    "ULTRACEMCO",
+    "INFY",
+    "KOTAKBANK"
+  ],
+  "2024-01-19": [
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "UPL",
+    "HDFCBANK",
+    "INDUSINDBK"
+  ],
+  "2024-01-22": [
+    "DRREDDY",
+    "HDFCBANK",
+    "HEROMOTOCO",
+    "ICICIBANK",
+    "ITC"
+  ],
+  "2024-01-23": [
+    "BHARTIARTL",
+    "BRITANNIA",
+    "UPL",
+    "GRASIM",
+    "HEROMOTOCO"
+  ],
+  "2024-01-24": [
+    "TCS",
+    "TECHM",
+    "EICHERMOT",
+    "UPL",
+    "JSWSTEEL"
+  ],
+  "2024-01-25": [
+    "AXISBANK",
+    "TATASTEEL",
+    "HEROMOTOCO",
+    "HINDUNILVR",
+    "M&M"
+  ],
+  "2024-01-26": [
+    "APOLLOHOSP",
+    "AXISBANK",
+    "DIVISLAB",
+    "ULTRACEMCO",
+    "HDFCBANK"
+  ],
+  "2024-01-29": [
+    "DIVISLAB",
+    "HCLTECH",
+    "INFY",
+    "LT",
+    "LTIM"
+  ],
+  "2024-01-30": [
+    "DIVISLAB",
+    "INDUSINDBK",
+    "JSWSTEEL",
+    "KOTAKBANK",
+    "MARUTI"
+  ],
+  "2024-01-31": [
+    "APOLLOHOSP",
+    "TCS",
+    "HCLTECH",
+    "HINDALCO",
+    "MARUTI"
+  ],
+  "2024-02-01": [
+    "APOLLOHOSP",
+    "ASIANPAINT",
+    "BAJFINANCE",
+    "DIVISLAB",
+    "TITAN"
+  ],
+  "2024-02-02": [
+    "APOLLOHOSP",
+    "BRITANNIA",
+    "TECHM",
+    "JSWSTEEL",
+    "MARUTI"
+  ],
+  "2024-02-05": [
+    "APOLLOHOSP",
+    "EICHERMOT",
+    "HEROMOTOCO",
+    "INDUSINDBK",
+    "MARUTI"
+  ],
+  "2024-02-06": [
+    "APOLLOHOSP",
+    "RELIANCE",
+    "TCS",
+    "DIVISLAB",
+    "KOTAKBANK"
+  ],
+  "2024-02-07": [
+    "BAJAJFINSV",
+    "BRITANNIA",
+    "WIPRO",
+    "HDFCLIFE",
+    "ITC"
+  ],
+  "2024-02-08": [
+    "BRITANNIA",
+    "DIVISLAB",
+    "EICHERMOT",
+    "HEROMOTOCO",
+    "MARUTI"
+  ],
+  "2024-02-09": [
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "TCS",
+    "ULTRACEMCO",
+    "INFY"
+  ],
+  "2024-02-12": [
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "TATASTEEL",
+    "BRITANNIA",
+    "INFY"
+  ],
+  "2024-02-13": [
+    "BAJFINANCE",
+    "EICHERMOT",
+    "HDFCBANK",
+    "HEROMOTOCO",
+    "ITC"
+  ],
+  "2024-02-14": [
+    "BRITANNIA",
+    "GRASIM",
+    "HEROMOTOCO",
+    "HINDUNILVR",
+    "LTIM"
+  ],
+  "2024-02-15": [
+    "ONGC",
+    "RELIANCE",
+    "TATASTEEL",
+    "UPL",
+    "MARUTI"
+  ],
+  "2024-02-16": [
+    "TATASTEEL",
+    "HEROMOTOCO",
+    "ITC",
+    "LT",
+    "MARUTI"
+  ],
+  "2024-02-19": [
+    "APOLLOHOSP",
+    "AXISBANK",
+    "BAJFINANCE",
+    "DIVISLAB",
+    "LTIM"
+  ],
+  "2024-02-20": [
+    "ASIANPAINT",
+    "DIVISLAB",
+    "HCLTECH",
+    "HEROMOTOCO",
+    "LT"
+  ],
+  "2024-02-21": [
+    "DIVISLAB",
+    "UPL",
+    "ITC",
+    "JSWSTEEL",
+    "MARUTI"
+  ],
+  "2024-02-22": [
+    "ADANIPORTS",
+    "TATAMOTORS",
+    "TCS",
+    "HCLTECH",
+    "MARUTI"
+  ],
+  "2024-02-23": [
+    "APOLLOHOSP",
+    "ASIANPAINT",
+    "BAJFINANCE",
+    "TCS",
+    "TITAN"
+  ],
+  "2024-02-26": [
+    "APOLLOHOSP",
+    "BRITANNIA",
+    "TECHM",
+    "HEROMOTOCO",
+    "JSWSTEEL"
+  ],
+  "2024-02-27": [
+    "ADANIPORTS",
+    "APOLLOHOSP",
+    "INDUSINDBK",
+    "INFY",
+    "MARUTI"
+  ],
+  "2024-02-28": [
+    "POWERGRID",
+    "ASIANPAINT",
+    "APOLLOHOSP",
+    "DIVISLAB",
+    "ULTRACEMCO"
+  ],
+  "2024-02-29": [
+    "BAJFINANCE",
+    "BRITANNIA",
+    "TCS",
+    "EICHERMOT",
+    "HEROMOTOCO"
+  ],
+  "2024-03-01": [
+    "BAJAJFINSV",
+    "TCS",
+    "TECHM",
+    "HCLTECH",
+    "MARUTI"
+  ],
+  "2024-03-04": [
+    "TATACONSUM",
+    "TCS",
+    "ULTRACEMCO",
+    "HCLTECH",
+    "INFY"
+  ],
+  "2024-03-05": [
+    "ADANIPORTS",
+    "POWERGRID",
+    "RELIANCE",
+    "SBILIFE",
+    "BAJFINANCE"
+  ],
+  "2024-03-06": [
+    "BAJAJFINSV",
+    "BHARTIARTL",
+    "EICHERMOT",
+    "HDFCBANK",
+    "LT"
+  ],
+  "2024-03-07": [
+    "ONGC",
+    "BRITANNIA",
+    "HCLTECH",
+    "HEROMOTOCO",
+    "HINDUNILVR"
+  ],
+  "2024-03-08": [
+    "ONGC",
+    "RELIANCE",
+    "AXISBANK",
+    "TECHM",
+    "MARUTI"
+  ],
+  "2024-03-11": [
+    "AXISBANK",
+    "TATACONSUM",
+    "HEROMOTOCO",
+    "LT",
+    "MARUTI"
+  ],
+  "2024-03-12": [
+    "APOLLOHOSP",
+    "TATACONSUM",
+    "TITAN",
+    "EICHERMOT",
+    "HEROMOTOCO"
+  ],
+  "2024-03-13": [
+    "BAJFINANCE",
+    "TECHM",
+    "HCLTECH",
+    "HEROMOTOCO",
+    "LT"
+  ],
+  "2024-03-14": [
+    "BAJAJFINSV",
+    "TATACONSUM",
+    "BPCL",
+    "DIVISLAB",
+    "MARUTI"
+  ],
+  "2024-03-15": [
+    "ADANIPORTS",
+    "TCS",
+    "HCLTECH",
+    "INFY",
+    "MARUTI"
+  ],
+  "2024-03-18": [
+    "BAJFINANCE",
+    "TCS",
+    "TITAN",
+    "HCLTECH",
+    "INFY"
+  ],
+  "2024-03-19": [
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "BRITANNIA",
+    "HEROMOTOCO",
+    "MARUTI"
+  ],
+  "2024-03-20": [
+    "APOLLOHOSP",
+    "HEROMOTOCO",
+    "INFY",
+    "M&M",
+    "MARUTI"
+  ],
+  "2024-03-21": [
+    "POWERGRID",
+    "APOLLOHOSP",
+    "DIVISLAB",
+    "ULTRACEMCO",
+    "HCLTECH"
+  ],
+  "2024-03-22": [
+    "RELIANCE",
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "BRITANNIA",
+    "WIPRO"
+  ],
+  "2024-03-25": [
+    "APOLLOHOSP",
+    "EICHERMOT",
+    "HEROMOTOCO",
+    "M&M",
+    "MARUTI"
+  ],
+  "2024-03-26": [
+    "BAJFINANCE",
+    "TCS",
+    "ULTRACEMCO",
+    "HEROMOTOCO",
+    "INFY"
+  ],
+  "2024-03-27": [
+    "POWERGRID",
+    "SBILIFE",
+    "BAJFINANCE",
+    "TCS",
+    "WIPRO"
+  ],
+  "2024-03-28": [
+    "BAJFINANCE",
+    "TATAMOTORS",
+    "EICHERMOT",
+    "WIPRO",
+    "LT"
+  ],
+  "2024-03-29": [
+    "ADANIPORTS",
+    "BRITANNIA",
+    "HCLTECH",
+    "HEROMOTOCO",
+    "HINDUNILVR"
+  ],
+  "2024-04-01": [
+    "RELIANCE",
+    "TECHM",
+    "WIPRO",
+    "HCLTECH",
+    "MARUTI"
+  ],
+  "2024-04-02": [
+    "TATAMOTORS",
+    "HEROMOTOCO",
+    "HINDUNILVR",
+    "M&M",
+    "MARUTI"
+  ],
+  "2024-04-03": [
+    "BHARTIARTL",
+    "BRITANNIA",
+    "TITAN",
+    "EICHERMOT",
+    "HEROMOTOCO"
+  ],
+  "2024-04-04": [
+    "BAJFINANCE",
+    "TECHM",
+    "HCLTECH",
+    "HEROMOTOCO",
+    "LT"
+  ],
+  "2024-04-05": [
+    "BAJAJFINSV",
+    "TATACONSUM",
+    "DIVISLAB",
+    "HEROMOTOCO",
+    "MARUTI"
+  ],
+  "2024-04-08": [
+    "TCS",
+    "GRASIM",
+    "HCLTECH",
+    "INFY",
+    "MARUTI"
+  ],
+  "2024-04-09": [
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "TCS",
+    "TITAN",
+    "HCLTECH"
+  ],
+  "2024-04-10": [
+    "APOLLOHOSP",
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "BRITANNIA",
+    "MARUTI"
+  ],
+  "2024-04-11": [
+    "ADANIPORTS",
+    "AXISBANK",
+    "INDUSINDBK",
+    "INFY",
+    "MARUTI"
+  ],
+  "2024-04-12": [
+    "TATAMOTORS",
+    "DIVISLAB",
+    "ULTRACEMCO",
+    "HINDUNILVR",
+    "MARUTI"
+  ],
+  "2024-04-15": [
+    "BAJFINANCE",
+    "BRITANNIA",
+    "WIPRO",
+    "HDFCLIFE",
+    "HEROMOTOCO"
+  ],
+  "2024-04-16": [
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "EICHERMOT",
+    "HEROMOTOCO",
+    "MARUTI"
+  ],
+  "2024-04-17": [
+    "BAJFINANCE",
+    "TCS",
+    "ULTRACEMCO",
+    "HCLTECH",
+    "INFY"
+  ],
+  "2024-04-18": [
+    "SBILIFE",
+    "BRITANNIA",
+    "TCS",
+    "HCLTECH",
+    "HINDUNILVR"
+  ],
+  "2024-04-19": [
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "TATASTEEL",
+    "EICHERMOT",
+    "HDFCBANK"
+  ],
+  "2024-04-22": [
+    "ADANIPORTS",
+    "BRITANNIA",
+    "HCLTECH",
+    "HEROMOTOCO",
+    "KOTAKBANK"
+  ],
+  "2024-04-23": [
+    "TECHM",
+    "TITAN",
+    "HCLTECH",
+    "HDFCLIFE",
+    "MARUTI"
+  ],
+  "2024-04-24": [
+    "BHARTIARTL",
+    "TATAMOTORS",
+    "HEROMOTOCO",
+    "HINDUNILVR",
+    "M&M"
+  ],
+  "2024-04-25": [
+    "BAJAJFINSV",
+    "BHARTIARTL",
+    "TITAN",
+    "EICHERMOT",
+    "HEROMOTOCO"
+  ],
+  "2024-04-26": [
+    "BAJFINANCE",
+    "TECHM",
+    "EICHERMOT",
+    "HCLTECH",
+    "LT"
+  ],
+  "2024-04-29": [
+    "TATACONSUM",
+    "ULTRACEMCO",
+    "HEROMOTOCO",
+    "LT",
+    "MARUTI"
+  ],
+  "2024-04-30": [
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "GRASIM",
+    "LT",
+    "LTIM"
+  ],
+  "2024-05-01": [
+    "BAJFINANCE",
+    "TATASTEEL",
+    "HDFCLIFE",
+    "ICICIBANK",
+    "INDUSINDBK"
+  ],
+  "2024-05-02": [
+    "APOLLOHOSP",
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "BRITANNIA",
+    "MARUTI"
+  ],
+  "2024-05-03": [
+    "ADANIPORTS",
+    "AXISBANK",
+    "HEROMOTOCO",
+    "INDUSINDBK",
+    "LT"
+  ],
+  "2024-05-06": [
+    "BHARTIARTL",
+    "TCS",
+    "DIVISLAB",
+    "ULTRACEMCO",
+    "MARUTI"
+  ],
+  "2024-05-07": [
+    "AXISBANK",
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "BRITANNIA",
+    "HDFCBANK"
+  ],
+  "2024-05-08": [
+    "BAJFINANCE",
+    "EICHERMOT",
+    "HDFCBANK",
+    "HEROMOTOCO",
+    "MARUTI"
+  ],
+  "2024-05-09": [
+    "BAJAJFINSV",
+    "TCS",
+    "ULTRACEMCO",
+    "HCLTECH",
+    "INFY"
+  ],
+  "2024-05-10": [
+    "BRITANNIA",
+    "TCS",
+    "EICHERMOT",
+    "HINDUNILVR",
+    "MARUTI"
+  ],
+  "2024-05-13": [
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "EICHERMOT",
+    "GRASIM",
+    "ITC"
+  ],
+  "2024-05-14": [
+    "APOLLOHOSP",
+    "SBILIFE",
+    "DIVISLAB",
+    "EICHERMOT",
+    "HCLTECH"
+  ],
+  "2024-05-15": [
+    "RELIANCE",
+    "TECHM",
+    "ULTRACEMCO",
+    "HDFCLIFE",
+    "MARUTI"
+  ],
+  "2024-05-16": [
+    "HEROMOTOCO",
+    "INFY",
+    "ITC",
+    "M&M",
+    "MARUTI"
+  ],
+  "2024-05-17": [
+    "APOLLOHOSP",
+    "TITAN",
+    "DIVISLAB",
+    "EICHERMOT",
+    "HEROMOTOCO"
+  ],
+  "2024-05-20": [
+    "SBILIFE",
+    "BRITANNIA",
+    "EICHERMOT",
+    "HCLTECH",
+    "LT"
+  ],
+  "2024-05-21": [
+    "RELIANCE",
+    "TATACONSUM",
+    "ULTRACEMCO",
+    "LT",
+    "MARUTI"
+  ],
+  "2024-05-22": [
+    "APOLLOHOSP",
+    "DIVISLAB",
+    "GRASIM",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2024-05-23": [
+    "BAJFINANCE",
+    "ICICIBANK",
+    "INDUSINDBK",
+    "M&M",
+    "MARUTI"
+  ],
+  "2024-05-24": [
+    "APOLLOHOSP",
+    "BRITANNIA",
+    "HDFCBANK",
+    "HEROMOTOCO",
+    "MARUTI"
+  ],
+  "2024-05-27": [
+    "AXISBANK",
+    "GRASIM",
+    "ICICIBANK",
+    "KOTAKBANK",
+    "LT"
+  ],
+  "2024-05-28": [
+    "BHARTIARTL",
+    "TCS",
+    "DIVISLAB",
+    "ULTRACEMCO",
+    "MARUTI"
+  ],
+  "2024-05-29": [
+    "BAJFINANCE",
+    "BRITANNIA",
+    "DIVISLAB",
+    "EICHERMOT",
+    "HINDALCO"
+  ],
+  "2024-05-30": [
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "EICHERMOT",
+    "HEROMOTOCO",
+    "MARUTI"
+  ],
+  "2024-05-31": [
+    "POWERGRID",
+    "BAJFINANCE",
+    "TCS",
+    "TECHM",
+    "HCLTECH"
+  ],
+  "2024-06-03": [
+    "BRITANNIA",
+    "TCS",
+    "GRASIM",
+    "M&M",
+    "MARUTI"
+  ],
+  "2024-06-04": [
+    "BAJFINANCE",
+    "TATASTEEL",
+    "EICHERMOT",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2024-06-05": [
+    "APOLLOHOSP",
+    "SBILIFE",
+    "BRITANNIA",
+    "DIVISLAB",
+    "HCLTECH"
+  ],
+  "2024-06-06": [
+    "TCS",
+    "TECHM",
+    "ULTRACEMCO",
+    "HINDUNILVR",
+    "MARUTI"
+  ],
+  "2024-06-07": [
+    "BHARTIARTL",
+    "EICHERMOT",
+    "HEROMOTOCO",
+    "M&M",
+    "MARUTI"
+  ],
+  "2024-06-10": [
+    "APOLLOHOSP",
+    "BRITANNIA",
+    "EICHERMOT",
+    "HEROMOTOCO",
+    "MARUTI"
+  ],
+  "2024-06-11": [
+    "BRITANNIA",
+    "ULTRACEMCO",
+    "EICHERMOT",
+    "HCLTECH",
+    "LT"
+  ],
+  "2024-06-12": [
+    "BPCL",
+    "ULTRACEMCO",
+    "GRASIM",
+    "LT",
+    "MARUTI"
+  ],
+  "2024-06-13": [
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "DIVISLAB",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2024-06-14": [
+    "ADANIPORTS",
+    "BAJFINANCE",
+    "TITAN",
+    "M&M",
+    "MARUTI"
+  ],
+  "2024-06-17": [
+    "BAJFINANCE",
+    "TCS",
+    "EICHERMOT",
+    "HEROMOTOCO",
+    "MARUTI"
+  ],
+  "2024-06-18": [
+    "RELIANCE",
+    "AXISBANK",
+    "KOTAKBANK",
+    "LT",
+    "MARUTI"
+  ],
+  "2024-06-19": [
+    "BHARTIARTL",
+    "DIVISLAB",
+    "ULTRACEMCO",
+    "HINDUNILVR",
+    "MARUTI"
+  ],
+  "2024-06-20": [
+    "BPCL",
+    "DIVISLAB",
+    "EICHERMOT",
+    "LTIM",
+    "M&M"
+  ],
+  "2024-06-21": [
+    "APOLLOHOSP",
+    "ASIANPAINT",
+    "BAJFINANCE",
+    "DIVISLAB",
+    "EICHERMOT"
+  ],
+  "2024-06-24": [
+    "TCS",
+    "TECHM",
+    "WIPRO",
+    "HCLTECH",
+    "HINDUNILVR"
+  ],
+  "2024-06-25": [
+    "TCS",
+    "EICHERMOT",
+    "HINDUNILVR",
+    "M&M",
+    "MARUTI"
+  ],
+  "2024-06-26": [
+    "BAJFINANCE",
+    "TATASTEEL",
+    "DIVISLAB",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2024-06-27": [
+    "ADANIPORTS",
+    "TATASTEEL",
+    "DIVISLAB",
+    "EICHERMOT",
+    "HCLTECH"
+  ],
+  "2024-06-28": [
+    "APOLLOHOSP",
+    "TCS",
+    "ULTRACEMCO",
+    "HEROMOTOCO",
+    "MARUTI"
+  ],
+  "2024-07-01": [
+    "DIVISLAB",
+    "EICHERMOT",
+    "HEROMOTOCO",
+    "INDUSINDBK",
+    "M&M"
+  ],
+  "2024-07-02": [
+    "RELIANCE",
+    "BRITANNIA",
+    "TITAN",
+    "EICHERMOT",
+    "MARUTI"
+  ],
+  "2024-07-03": [
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "ULTRACEMCO",
+    "EICHERMOT",
+    "LT"
+  ],
+  "2024-07-04": [
+    "RELIANCE",
+    "TCS",
+    "ULTRACEMCO",
+    "HINDUNILVR",
+    "MARUTI"
+  ],
+  "2024-07-05": [
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "DIVISLAB",
+    "HEROMOTOCO",
+    "MARUTI"
+  ],
+  "2024-07-08": [
+    "ADANIPORTS",
+    "AXISBANK",
+    "BAJFINANCE",
+    "KOTAKBANK",
+    "MARUTI"
+  ],
+  "2024-07-09": [
+    "BAJAJFINSV",
+    "TCS",
+    "EICHERMOT",
+    "HDFCBANK",
+    "LT"
+  ],
+  "2024-07-10": [
+    "APOLLOHOSP",
+    "AXISBANK",
+    "HEROMOTOCO",
+    "KOTAKBANK",
+    "LT"
+  ],
+  "2024-07-11": [
+    "APOLLOHOSP",
+    "BRITANNIA",
+    "DIVISLAB",
+    "HINDUNILVR",
+    "MARUTI"
+  ],
+  "2024-07-12": [
+    "BAJFINANCE",
+    "BRITANNIA",
+    "WIPRO",
+    "HINDUNILVR",
+    "LTIM"
+  ],
+  "2024-07-15": [
+    "ASIANPAINT",
+    "BAJFINANCE",
+    "HCLTECH",
+    "HDFCBANK",
+    "HEROMOTOCO"
+  ],
+  "2024-07-16": [
+    "POWERGRID",
+    "TECHM",
+    "ULTRACEMCO",
+    "WIPRO",
+    "HCLTECH"
+  ],
+  "2024-07-17": [
+    "SUNPHARMA",
+    "TCS",
+    "EICHERMOT",
+    "HINDUNILVR",
+    "MARUTI"
+  ],
+  "2024-07-18": [
+    "BAJFINANCE",
+    "BRITANNIA",
+    "EICHERMOT",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2024-07-19": [
+    "ADANIPORTS",
+    "TATASTEEL",
+    "WIPRO",
+    "HCLTECH",
+    "HEROMOTOCO"
+  ],
+  "2024-07-22": [
+    "BRITANNIA",
+    "TCS",
+    "TECHM",
+    "ULTRACEMCO",
+    "HEROMOTOCO"
+  ],
+  "2024-07-23": [
+    "DIVISLAB",
+    "EICHERMOT",
+    "HEROMOTOCO",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2024-07-24": [
+    "RELIANCE",
+    "BRITANNIA",
+    "EICHERMOT",
+    "WIPRO",
+    "MARUTI"
+  ],
+  "2024-07-25": [
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "CIPLA",
+    "ULTRACEMCO",
+    "EICHERMOT"
+  ],
+  "2024-07-26": [
+    "ADANIPORTS",
+    "RELIANCE",
+    "SBILIFE",
+    "ULTRACEMCO",
+    "HINDUNILVR"
+  ],
+  "2024-07-29": [
+    "APOLLOHOSP",
+    "BAJFINANCE",
+    "DIVISLAB",
+    "ULTRACEMCO",
+    "MARUTI"
+  ],
+  "2024-07-30": [
+    "AXISBANK",
+    "HCLTECH",
+    "HEROMOTOCO",
+    "KOTAKBANK",
+    "MARUTI"
+  ],
+  "2024-07-31": [
+    "SBILIFE",
+    "BAJAJFINSV",
+    "EICHERMOT",
+    "HDFCBANK",
+    "LT"
+  ],
+  "2024-08-01": [
+    "ADANIPORTS",
+    "EICHERMOT",
+    "HEROMOTOCO",
+    "KOTAKBANK",
+    "LT"
+  ],
+  "2024-08-02": [
+    "APOLLOHOSP",
+    "BHARTIARTL",
+    "DIVISLAB",
+    "TITAN",
+    "ULTRACEMCO"
+  ],
+  "2024-08-05": [
+    "BRITANNIA",
+    "DIVISLAB",
+    "WIPRO",
+    "LTIM",
+    "M&M"
+  ],
+  "2024-08-06": [
+    "BAJFINANCE",
+    "BRITANNIA",
+    "HDFCBANK",
+    "HEROMOTOCO",
+    "MARUTI"
+  ],
+  "2024-08-07": [
+    "TECHM",
+    "ULTRACEMCO",
+    "INFY",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2024-08-08": [
+    "APOLLOHOSP",
+    "SUNPHARMA",
+    "TCS",
+    "M&M",
+    "MARUTI"
+  ],
+  "2024-08-09": [
+    "SBILIFE",
+    "BAJFINANCE",
+    "BRITANNIA",
+    "HDFCLIFE",
+    "LTIM"
+  ],
+  "2024-08-12": [
+    "ONGC",
+    "EICHERMOT",
+    "WIPRO",
+    "HCLTECH",
+    "MARUTI"
+  ],
+  "2024-08-13": [
+    "APOLLOHOSP",
+    "BRITANNIA",
+    "TCS",
+    "ULTRACEMCO",
+    "HEROMOTOCO"
+  ],
+  "2024-08-14": [
+    "BHARTIARTL",
+    "TATAMOTORS",
+    "DIVISLAB",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2024-08-15": [
+    "RELIANCE",
+    "BRITANNIA",
+    "EICHERMOT",
+    "GRASIM",
+    "HEROMOTOCO"
+  ],
+  "2024-08-16": [
+    "APOLLOHOSP",
+    "ASIANPAINT",
+    "BRITANNIA",
+    "ULTRACEMCO",
+    "EICHERMOT"
+  ],
+  "2024-08-19": [
+    "RELIANCE",
+    "BRITANNIA",
+    "TCS",
+    "ULTRACEMCO",
+    "HINDUNILVR"
+  ],
+  "2024-08-20": [
+    "APOLLOHOSP",
+    "DIVISLAB",
+    "ULTRACEMCO",
+    "LTIM",
+    "MARUTI"
+  ],
+  "2024-08-21": [
+    "ADANIPORTS",
+    "ASIANPAINT",
+    "HEROMOTOCO",
+    "KOTAKBANK",
+    "LTIM"
+  ],
+  "2024-08-22": [
+    "APOLLOHOSP",
+    "EICHERMOT",
+    "INFY",
+    "LT",
+    "LTIM"
+  ],
+  "2024-08-23": [
+    "APOLLOHOSP",
+    "ULTRACEMCO",
+    "EICHERMOT",
+    "HEROMOTOCO",
+    "LT"
+  ],
+  "2024-08-26": [
+    "APOLLOHOSP",
+    "ASIANPAINT",
+    "TITAN",
+    "ULTRACEMCO",
+    "MARUTI"
+  ],
+  "2024-08-27": [
+    "TCS",
+    "DIVISLAB",
+    "HDFCBANK",
+    "HINDUNILVR",
+    "M&M"
+  ],
+  "2024-08-28": [
+    "SBILIFE",
+    "BAJFINANCE",
+    "BRITANNIA",
+    "DIVISLAB",
+    "INDUSINDBK"
+  ],
+  "2024-08-29": [
+    "ASIANPAINT",
+    "TECHM",
+    "ULTRACEMCO",
+    "INFY",
+    "LTIM"
+  ],
+  "2024-08-30": [
+    "APOLLOHOSP",
+    "TCS",
+    "HEROMOTOCO",
+    "HINDUNILVR",
+    "MARUTI"
+  ],
+  "2024-09-02": [
+    "SBILIFE",
+    "BAJFINANCE",
+    "DIVISLAB",
+    "EICHERMOT",
+    "HDFCLIFE"
+  ],
+  "2024-09-03": [
+    "ONGC",
+    "SBILIFE",
+    "COALINDIA",
+    "WIPRO",
+    "HEROMOTOCO"
+  ],
+  "2024-09-04": [
+    "APOLLOHOSP",
+    "BRITANNIA",
+    "TCS",
+    "ULTRACEMCO",
+    "HEROMOTOCO"
+  ],
+  "2024-09-05": [
+    "TATAMOTORS",
+    "BRITANNIA",
+    "CIPLA",
+    "DIVISLAB",
+    "HDFCLIFE"
+  ],
+  "2024-09-06": [
+    "POWERGRID",
+    "RELIANCE",
+    "EICHERMOT",
+    "WIPRO",
+    "LTIM"
+  ],
+  "2024-09-09": [
+    "APOLLOHOSP",
+    "TCS",
+    "ULTRACEMCO",
+    "EICHERMOT",
+    "LTIM"
+  ],
+  "2024-09-10": [
+    "RELIANCE",
+    "BRITANNIA",
+    "TCS",
+    "HINDUNILVR",
+    "LTIM"
+  ],
+  "2024-09-11": [
+    "APOLLOHOSP",
+    "DIVISLAB",
+    "ULTRACEMCO",
+    "HEROMOTOCO",
+    "LTIM"
+  ],
+  "2024-09-12": [
+    "SBILIFE",
+    "TITAN",
+    "HEROMOTOCO",
+    "KOTAKBANK",
+    "LTIM"
+  ],
+  "2024-09-13": [
+    "BRITANNIA",
+    "TCS",
+    "INDUSINDBK",
+    "INFY",
+    "LTIM"
+  ],
+  "2024-09-16": [
+    "APOLLOHOSP",
+    "ULTRACEMCO",
+    "EICHERMOT",
+    "HEROMOTOCO",
+    "LT"
+  ],
+  "2024-09-17": [
+    "APOLLOHOSP",
+    "ASIANPAINT",
+    "BHARTIARTL",
+    "TITAN",
+    "ULTRACEMCO"
+  ],
+  "2024-09-18": [
+    "SBILIFE",
+    "BHARTIARTL",
+    "TCS",
+    "DIVISLAB",
+    "EICHERMOT"
+  ],
+  "2024-09-19": [
+    "SBILIFE",
+    "BAJFINANCE",
+    "BRITANNIA",
+    "DIVISLAB",
+    "INDUSINDBK"
+  ],
+  "2024-09-20": [
+    "CIPLA",
+    "ULTRACEMCO",
+    "HEROMOTOCO",
+    "INFY",
+    "M&M"
+  ],
+  "2024-09-23": [
+    "APOLLOHOSP",
+    "TCS",
+    "KOTAKBANK",
+    "M&M",
+    "MARUTI"
+  ],
+  "2024-09-24": [
+    "SBILIFE",
+    "BAJAJFINSV",
+    "WIPRO",
+    "ITC",
+    "MARUTI"
+  ],
+  "2024-09-25": [
+    "RELIANCE",
+    "TATACONSUM",
+    "TCS",
+    "TITAN",
+    "ULTRACEMCO"
+  ],
+  "2024-09-26": [
+    "APOLLOHOSP",
+    "TCS",
+    "ULTRACEMCO",
+    "HEROMOTOCO",
+    "INFY"
+  ],
+  "2024-09-27": [
+    "TATAMOTORS",
+    "CIPLA",
+    "DIVISLAB",
+    "HDFCLIFE",
+    "LTIM"
+  ],
+  "2024-09-30": [
+    "APOLLOHOSP",
+    "RELIANCE",
+    "BRITANNIA",
+    "EICHERMOT",
+    "LTIM"
+  ],
+  "2024-10-01": [
+    "ASIANPAINT",
+    "BHARTIARTL",
+    "TITAN",
+    "ULTRACEMCO",
+    "LTIM"
+  ],
+  "2024-10-02": [
+    "SBILIFE",
+    "BRITANNIA",
+    "TCS",
+    "EICHERMOT",
+    "KOTAKBANK"
+  ],
+  "2024-10-03": [
+    "APOLLOHOSP",
+    "ULTRACEMCO",
+    "EICHERMOT",
+    "GRASIM",
+    "HEROMOTOCO"
+  ],
+  "2024-10-04": [
+    "TITAN",
+    "UPL",
+    "HEROMOTOCO",
+    "KOTAKBANK",
+    "LTIM"
+  ],
+  "2024-10-07": [
+    "TCS",
+    "DIVISLAB",
+    "ULTRACEMCO",
+    "INDUSINDBK",
+    "INFY"
+  ],
+  "2024-10-08": [
+    "APOLLOHOSP",
+    "ULTRACEMCO",
+    "EICHERMOT",
+    "UPL",
+    "LT"
+  ],
+  "2024-10-09": [
+    "APOLLOHOSP",
+    "BHARTIARTL",
+    "BRITANNIA",
+    "TITAN",
+    "ULTRACEMCO"
+  ],
+  "2024-10-10": [
+    "SUNPHARMA",
+    "BHARTIARTL",
+    "TCS",
+    "WIPRO",
+    "INFY"
+  ],
+  "2024-10-11": [
+    "SBILIFE",
+    "BRITANNIA",
+    "DIVISLAB",
+    "ULTRACEMCO",
+    "INDUSINDBK"
+  ]
+}
