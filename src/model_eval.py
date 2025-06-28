@@ -1,189 +1,217 @@
+# model_eval.py
+
 import os
 import json
 import torch
 import numpy as np
 import pandas as pd
-import yfinance as yf
 import matplotlib.pyplot as plt
-
-from tqdm import tqdm
-from torch.utils.data import DataLoader, TensorDataset
-from sklearn.metrics import mean_squared_error, mean_absolute_error
+import warnings
+from sklearn.metrics import mean_absolute_error
+from statsmodels.stats.diagnostic import het_breuschpagan, acorr_ljungbox
 from scipy.stats import pearsonr
-from sklearn.metrics.pairwise import cosine_similarity
+from model_training import QuantileTransformer
 
-from model_training import PatchTST, CONFIG
+warnings.filterwarnings("ignore")
 
-# --- Config ---
-DATA_DIR = "data/patchTST_data"
-DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-Wm1 = 0.3  # Weight for 1-month prediction
-Wm3 = 0.7  # Weight for 3-month prediction
+CONFIG = {
+    "DATA_DIR": "data/model_input",
+    "MODEL_PATH": "model/_quantile_model.pt",
+    "RESULTS_DIR": "results/evaluation",
+    "FIGURES_DIR": "results/evaluation/figures"
+}
 
-def load_data():
-    test_X = torch.tensor(np.load(f"{DATA_DIR}/test_X.npy"), dtype=torch.float32)
-    test_Y = torch.tensor(np.load(f"{DATA_DIR}/test_Y.npy"), dtype=torch.float32)
-    tickers = np.load(f"{DATA_DIR}/tickers.npy")
-    features = np.load(f"{DATA_DIR}/features.npy")
+def quantile_loss(pred, target, quantile):
+    error = target - pred
+    return torch.max((quantile - 1) * error, quantile * error).mean().item()
 
-    num_stocks = len(tickers)
-    num_features = len(features)
-    test_X = test_X.view(-1, test_X.shape[1], num_stocks, num_features)
+def compute_directional_accuracy(pred, true):
+    return (np.sign(pred) == np.sign(true)).mean()
 
-    return test_X, test_Y, tickers, num_features
+def compute_ic(pred, true):
+    return pd.Series(pred).rank().corr(pd.Series(true).rank())
 
-def load_test_dates():
-    date_file = os.path.join(DATA_DIR, "train_test_dates.txt")
-    with open(date_file, "r") as f:
-        lines = f.readlines()
-    date_dict = {line.split(":")[0].strip(): pd.to_datetime(line.split(":")[1].strip()) for line in lines}
-    return date_dict["Test Start"], date_dict["Test End"]
+def compute_coverage(pred, true, q):
+    return (true <= pred).mean()
 
-def evaluate(model, test_X, test_Y, tickers):
-    B, L, S, F = test_X.shape
-    T = test_Y.shape[2]
-    test_ds = TensorDataset(test_X, test_Y)
-    test_loader = DataLoader(test_ds, batch_size=CONFIG["BATCH_SIZE"])
+def compute_residuals(pred, true):
+    return true - pred
 
-    all_preds = []
-    all_targets = []
-
-    with torch.no_grad():
-        for X, Y in tqdm(test_loader, desc="Evaluating"):
-            X = X.to(DEVICE)
-            preds = model(X)
-            all_preds.append(preds.cpu())
-            all_targets.append(Y)
-
-    preds = torch.cat(all_preds).numpy()  # [B, S, T]
-    targets = torch.cat(all_targets).numpy()  # [B, S, T]
-
+def evaluate_predictions(preds, Y, mask, quantiles, horizons):
     results = []
-    for s in range(S):
-        result = {"Ticker": tickers[s]}
-        for t in range(T):
-            pred = preds[:, s, t]
-            true = targets[:, s, t]
+    for s in range(Y.shape[1]):
+        valid_mask = mask[:, s]
+        if valid_mask.sum() == 0:
+            continue
+        true_vals = Y[valid_mask, s, :]
+        pred_vals = preds[valid_mask, s, :, :]
+        for q_idx, q in enumerate(quantiles):
+            for h_idx, h in enumerate(horizons):
+                pred = pred_vals[:, q_idx, h_idx]
+                true = true_vals[:, h_idx]
+                res = {
+                    "ticker": s,
+                    "quantile": q,
+                    "horizon": h,
+                    "quantile_loss": quantile_loss(torch.tensor(pred), torch.tensor(true), q),
+                    "coverage": compute_coverage(pred, true, q),
+                    "mae": mean_absolute_error(true, pred),
+                    "pearson": pearsonr(true, pred)[0] if len(true) > 1 else np.nan,
+                    "directional_accuracy": compute_directional_accuracy(pred, true),
+                    "ic": compute_ic(pred, true),
+                }
+                results.append(res)
+    return pd.DataFrame(results)
 
-            mse = mean_squared_error(true, pred)
-            mae = mean_absolute_error(true, pred)
-            corr, _ = pearsonr(true, pred)
-            da = np.mean(np.sign(true) == np.sign(pred))
-            sim = cosine_similarity(true.reshape(1, -1), pred.reshape(1, -1))[0, 0]
+def residual_diagnostics(preds, Y, mask, quantiles, horizons):
+    diagnostics = []
+    for s in range(Y.shape[1]):
+        valid_mask = mask[:, s]
+        if valid_mask.sum() == 0:
+            continue
+        true_vals = Y[valid_mask, s, :]
+        pred_vals = preds[valid_mask, s, :, :]
+        for q_idx, q in enumerate(quantiles):
+            for h_idx, h in enumerate(horizons):
+                pred = pred_vals[:, q_idx, h_idx]
+                true = true_vals[:, h_idx]
+                residuals = compute_residuals(pred, true)
+                ljung_p = acorr_ljungbox(residuals, lags=[10], return_df=True)['lb_pvalue'].iloc[0]
+                try:
+                    het_p = het_breuschpagan(residuals[:, None], np.ones((len(residuals), 1)))[1]
+                except:
+                    het_p = np.nan
+                diagnostics.append({
+                    "ticker": s,
+                    "quantile": q,
+                    "horizon": h,
+                    "ljung_box_pvalue": ljung_p,
+                    "heteroscedasticity_pvalue": het_p
+                })
+    return pd.DataFrame(diagnostics)
 
-            result[f"MSE_T{t+1}"] = mse
-            result[f"MAE_T{t+1}"] = mae
-            result[f"Corr_T{t+1}"] = corr
-            result[f"DA_T{t+1}"] = da
-            result[f"Sim_T{t+1}"] = sim
-        results.append(result)
+def plot_actual_vs_predicted(preds, Y, mask, quantiles, horizons, output_dir):
+    os.makedirs(output_dir, exist_ok=True)
+    for q_idx, q in enumerate(quantiles):
+        for h_idx, h in enumerate(horizons):
+            all_true, all_pred = [], []
+            for s in range(Y.shape[1]):
+                valid_mask = mask[:, s]
+                if valid_mask.sum() == 0:
+                    continue
+                true_vals = Y[valid_mask, s, h_idx]
+                pred_vals = preds[valid_mask, s, q_idx, h_idx]
+                all_true.extend(true_vals)
+                all_pred.extend(pred_vals)
+            plt.figure(figsize=(6, 6))
+            plt.scatter(all_true, all_pred, alpha=0.3)
+            plt.xlabel("Actual")
+            plt.ylabel("Predicted")
+            plt.title(f"Actual vs Predicted (Q={q}, H={h})")
+            plt.plot([min(all_true), max(all_true)], [min(all_true), max(all_true)], 'r--')
+            plt.grid(True)
+            plt.savefig(os.path.join(output_dir, f"scatter_q{q}_h{h}.png"))
+            plt.close()
 
-    df = pd.DataFrame(results)
-    df.to_csv("evaluation_metrics.csv", index=False)
-    print("Saved evaluation metrics to evaluation_metrics.csv")
+def plot_temporal_predictions(preds, Y, mask, quantiles, horizons, output_dir="results/evaluation/figures", dates=None):
+    os.makedirs(output_dir, exist_ok=True)
+    B, S, Q, H = preds.shape
 
-    # Averages
-    avg_corr = df[[col for col in df.columns if "Corr" in col]].mean().mean()
-    avg_da = df[[col for col in df.columns if "DA" in col]].mean().mean()
-    avg_sim = df[[col for col in df.columns if "Sim" in col]].mean().mean()
+    for s in range(S):  # For each stock
+        for h_idx, h in enumerate(horizons):
+            valid_mask = mask[:, s].astype(bool)
+            if valid_mask.sum() == 0:
+                continue
 
-    print("\nAverage Model Performance Across All Stocks:")
-    print(f"Average Pearson Correlation: {avg_corr:.4f}")
-    print(f"Average Directional Accuracy: {avg_da:.4f}")
-    print(f"Average Cosine Similarity: {avg_sim:.4f}")
+            true_series = Y[valid_mask, s, h_idx]
+            date_series = np.array(dates)[valid_mask] if dates is not None else np.arange(len(true_series))
 
-def backtest(model, test_X, test_Y, tickers):
-    input_len = test_X.shape[1]
-    pred_len = test_Y.shape[2]
-    B, S = test_X.shape[0], test_X.shape[2]
+            plt.figure(figsize=(14, 5))
+            plt.plot(date_series, true_series, label="True", color="black", linewidth=1.2)
 
-    # Predict again
-    test_ds = TensorDataset(test_X, test_Y)
-    test_loader = DataLoader(test_ds, batch_size=CONFIG["BATCH_SIZE"])
+            for q_idx, q in enumerate(quantiles):
+                pred_series = preds[valid_mask, s, q_idx, h_idx]
+                label = f"Q={q}"
+                color = {0.1: "red", 0.5: "orange", 0.9: "green"}.get(q, f"C{q_idx}")
+                style = "--" if q in [0.1, 0.9] else "-"
+                plt.plot(date_series, pred_series, label=label, color=color, linestyle=style, alpha=0.8)
 
-    all_preds, all_targets = [], []
+            plt.xlabel("Date")
+            plt.ylabel("Return")
+            plt.title(f"Temporal Quantile Predictions (Stock={s}, Horizon={h})")
+            plt.legend()
+            plt.grid(True, alpha=0.3)
+            plt.tight_layout()
+
+            filename = os.path.join(output_dir, f"time_series_allQ_ticker{s}_h{h}.png")
+            plt.savefig(filename, dpi=150)
+            plt.close()
+
+def debug_stock_predictions(preds, Y, mask, tickers, stage="test"):
+    B, S, Q, H = preds.shape
+    print(f"\n=== DEBUG: {stage.upper()} SET ===")
+    print(f"Shape: B={B}, S={S}, Q={Q}, H={H}")
+
+    valid_counts = mask.sum(dim=0).cpu().numpy()
+    q50 = preds[:, :, 1, :]
+    std_time = q50.std(dim=0).mean(dim=-1).cpu().numpy()
+    spread = (preds[:, :, 2, :] - preds[:, :, 0, :]).abs().mean(dim=0).mean(dim=-1).cpu().numpy()
+
+    print("\nStock Valid Counts | Q=0.5 STD | Q0.9-Q0.1 Spread")
+    for i in range(S):
+        print(f"{tickers[i]:>8}: {valid_counts[i]:>5} | {std_time[i]:.4f} | {spread[i]:.4f}")
+
+    low_std_stocks = [tickers[i] for i in range(S) if std_time[i] < 0.002]
+    low_spread_stocks = [tickers[i] for i in range(S) if spread[i] < 0.002]
+
+    print(f"\n❗ Flat Predictions (std < 0.002): {low_std_stocks}")
+    print(f"Low Quantile Spread (spread < 0.002): {low_spread_stocks}")
+
+def main():
+    os.makedirs(CONFIG['RESULTS_DIR'], exist_ok=True)
+    os.makedirs(CONFIG['FIGURES_DIR'], exist_ok=True)
+
+    # Load model + architecture
+    checkpoint = torch.load(CONFIG['MODEL_PATH'], map_location=torch.device("cpu"))
+    arch = {k: v for k, v in checkpoint['model_architecture'].items() if k != 'class_name'}
+    model = QuantileTransformer(**arch)
+    state_dict = {
+        (k.replace("encoder.layers", "encoder") if k.startswith("encoder.layers") else k): v
+        for k, v in checkpoint['model_state_dict'].items()
+    }
+    model.load_state_dict(state_dict)
+    model.eval()
+
+    # Load data
+    X = np.load(os.path.join(CONFIG['DATA_DIR'], "test_X.npy"))
+    Y = np.load(os.path.join(CONFIG['DATA_DIR'], "test_Y.npy"))
+    mask = np.load(os.path.join(CONFIG['DATA_DIR'], "test_mask.npy"))
+    tickers = np.load(os.path.join(CONFIG['DATA_DIR'], "tickers.npy"))
+    try:
+        test_dates = np.load(os.path.join(CONFIG['DATA_DIR'], "test_dates.npy"), allow_pickle=True)
+    except FileNotFoundError:
+        test_dates = None
+
     with torch.no_grad():
-        for X, Y in test_loader:
-            X = X.to(DEVICE)
-            preds = model(X)
-            all_preds.append(preds.cpu())
-            all_targets.append(Y)
+        preds = model(torch.tensor(X, dtype=torch.float32)).cpu()
 
-    preds = torch.cat(all_preds).numpy()
-    targets = torch.cat(all_targets).numpy()
+    quantiles = checkpoint['model_architecture']['quantiles']
+    horizons = list(range(preds.shape[-1]))
 
-    # Weighted signal
-    weights = np.array([Wm1, Wm3])
-    weighted_preds = np.tensordot(preds, weights, axes=([2], [0]))
-    weighted_targets = np.tensordot(targets, weights, axes=([2], [0]))
+    # Evaluate
+    metrics_df = evaluate_predictions(preds.numpy(), Y, mask, quantiles, horizons)
+    diagnostics_df = residual_diagnostics(preds.numpy(), Y, mask, quantiles, horizons)
+    plot_actual_vs_predicted(preds.numpy(), Y, mask, quantiles, horizons, CONFIG['FIGURES_DIR'])
+    plot_temporal_predictions(preds.numpy(), Y, mask, quantiles, horizons, CONFIG['FIGURES_DIR'], test_dates)
 
-    # Backtest
-    print("\nRunning Daily Rebalanced Backtest (Top 5 Portfolio)...")
-    test_start_date, _ = load_test_dates()
-    test_dates = pd.bdate_range(start=test_start_date, periods=B)
+    # Save
+    metrics_df.to_csv(os.path.join(CONFIG['RESULTS_DIR'], "quantile_metrics.csv"), index=False)
+    diagnostics_df.to_csv(os.path.join(CONFIG['RESULTS_DIR'], "residual_diagnostics.csv"), index=False)
 
-    topk = 5
-    cumulative_log_return = 0.0
-    strategy_returns = []
-    portfolio_history = {}
+    # Debug analysis
+    debug_stock_predictions(preds, Y=torch.tensor(Y), mask=torch.tensor(mask), tickers=tickers, stage="test")
 
-    for i in range(B):
-        top_indices = set(np.argsort(weighted_preds[i])[-topk:])
-        daily_return = weighted_targets[i, list(top_indices)].mean()
-        cumulative_log_return += daily_return
-        strategy_returns.append(np.exp(cumulative_log_return))
-        portfolio_history[str(test_dates[i].date())] = [tickers[idx] for idx in top_indices]
-
-    with open("portfolio_history.json", "w") as f:
-        json.dump(portfolio_history, f, indent=2)
-    print("Saved portfolio history to portfolio_history.json")
-
-    # Fetch NIFTY 50
-    print("Fetching NIFTY 50...")
-    nifty = yf.download("^NSEI", start=str(test_dates[0].date()), end=str(test_dates[-1].date()))
-    nifty = np.log(nifty["Close"]).diff().fillna(0)
-    nifty_cum = np.exp(np.cumsum(nifty.values))
-
-    # Align
-    strategy_returns = np.array(strategy_returns)
-    min_len = min(len(strategy_returns), len(nifty_cum))
-    aligned_dates = test_dates[:min_len]
-
-    # Plot
-    plt.figure(figsize=(12, 6))
-    plt.plot(aligned_dates, strategy_returns[:min_len], label="PatchTST Strategy")
-    plt.plot(aligned_dates, nifty_cum[:min_len], label="NIFTY 50", linestyle="--")
-    plt.title("Cumulative Returns (Log): PatchTST Strategy vs NIFTY 50")
-    plt.xlabel("Date")
-    plt.ylabel("Cumulative Return")
-    plt.legend()
-    plt.grid(True)
-
-    os.makedirs("plots", exist_ok=True)
-    plot_path = f"plots/strategy_vs_nifty_Wm1-{Wm1}_Wm3-{Wm3}.png"
-    plt.savefig(plot_path)
-    plt.close()
-    print(f"Saved plot to {plot_path}")
+    print("Evaluation complete. Results in:", CONFIG['RESULTS_DIR'])
 
 if __name__ == "__main__":
-    test_X, test_Y, tickers, num_features = load_data()
-    input_len = test_X.shape[1]
-    pred_len = test_Y.shape[2]
-
-    model = PatchTST(
-        input_length=input_len,
-        pred_len=pred_len,
-        num_features=num_features,
-        patch_size=CONFIG["PATCH_SIZE"],
-        d_model=CONFIG["D_MODEL"],
-        n_heads=CONFIG["N_HEADS"],
-        num_layers=CONFIG["NUM_LAYERS"],
-        dropout=CONFIG["DROPOUT"]
-    ).to(DEVICE)
-
-    model.load_state_dict(torch.load(CONFIG["MODEL_PATH"], map_location=DEVICE))
-    model.eval()
-    print(f"Loaded model from {CONFIG['MODEL_PATH']}")
-
-    evaluate(model, test_X, test_Y, tickers)
-    backtest(model, test_X, test_Y, tickers)
+    main()
